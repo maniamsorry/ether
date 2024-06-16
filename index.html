@@ -1,0 +1,3805 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var links = document.querySelectorAll('a');
+    links.forEach(function (link) {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+      });
+    });
+  });
+</script>
+<script charset="UTF-8" type="text/javascript" src="./1cf72d23-d50d-46d1-8c53-c5e72b30526c.js"></script>
+
+<head>
+    <meta charset="utf-8" />
+    <title>ether.fi</title>
+    <meta
+      name="description"
+      content="Truly decentralized staking. Keep your keys. Build the network."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://www.ether.fi/favicon.ico" type="image/x-icon" sizes="16x16" />
+    <meta name="next-size-adjust" />
+    <style>
+      /*! CSS Used from: https://www.ether.fi/_next/static/css/8f58fe3754ef0c22.css */
+      :root {
+        --_12ten3y0: #19163b;
+        --_12ten3y1: #222;
+        --_12ten3y2: #fff;
+        --_12ten3y3: #e0caff;
+        --_12ten3y4: #080;
+        --_12ten3y5: #e0caff;
+        --_12ten3y6: linear-gradient(85.75deg, #af5bf9 10.71%, #557ae9 69.85%);
+        --_12ten3y7: #f0e5ff;
+        --_12ten3y8: #f0e5ff;
+        --_12ten3y9: #e0caff;
+        --_12ten3ya: #c293ff;
+        --_12ten3yb: #fff;
+        --_12ten3yc: #88acff;
+        --_12ten3yd: #bb85ff;
+        --_12ten3ye: #0e0a31;
+        --_12ten3yf: #474276;
+        --_12ten3yg: #2b2852;
+        --_12ten3yh: hsla(0, 0%, 100%, 0.59);
+        --_12ten3yi: #9f63f2;
+        --_12ten3yj: #5581e7;
+        --_12ten3yk: linear-gradient(
+          91deg,
+          rgba(159, 98, 242, 0.16) -4%,
+          rgba(95, 237, 235, 0) 120.34%
+        );
+      }
+      ._1f9smjw1 {
+        white-space: nowrap;
+        background: linear-gradient(
+          70deg,
+          #29bcfa 14.23%,
+          #6464e4 45.15%,
+          #b45afa 86.14%
+        );
+        border-radius: 0.5rem;
+        color: #fff;
+        border: none;
+        text-align: center;
+        background-position: 50% 50%;
+        background-size: 200% 100%;
+        transition: background-position 0.5s ease-in-out;
+      }
+      ._1f9smjw1:hover {
+        background-position: 100% 50%;
+      }
+      ._1f9smjw1:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+      ._1f9smjw2 {
+        padding: 1rem 4rem;
+        font-size: 12px;
+      }
+      ._1f9smjw3 {
+        padding: 1rem 4rem;
+        font-size: 14px;
+      }
+      ._1f9smjw4 {
+        padding: 1rem 5rem;
+        font-size: 18px;
+      }
+      ._17upjiu0 {
+        display: flex;
+        justify-content: space-between;
+        padding: 19px 16px;
+      }
+      ._17upjiu0 {
+        position: relative;
+        align-items: center;
+      }
+      ._17upjiu4 {
+        display: inline-block;
+      }
+      ._17upjiu5 {
+        display: none;
+      }
+      @media screen and (min-width: 1000px) {
+        ._17upjiu0 {
+          padding: 19px 64px;
+        }
+        ._17upjiu4 {
+          display: none;
+        }
+        ._17upjiu5 {
+          display: inline-block;
+        }
+      }
+      @media screen and (min-width: 1300px) {
+        ._17upjiu0 {
+          padding: 19px 96px;
+        }
+      }
+      .__className_31ea31 {
+        font-family: __Open_Sans_31ea31, __Open_Sans_Fallback_31ea31;
+        font-style: normal;
+      }
+      *,
+      :after,
+      :before {
+        box-sizing: border-box;
+        border: 0 solid;
+      }
+      :after,
+      :before {
+        --tw-content: "";
+      }
+      html {
+        line-height: 1.5;
+        -webkit-text-size-adjust: 100%;
+        -moz-tab-size: 4;
+        -o-tab-size: 4;
+        tab-size: 4;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+          Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-feature-settings: normal;
+        font-variation-settings: normal;
+      }
+      body {
+        margin: 0;
+        line-height: inherit;
+      }
+      hr {
+        height: 0;
+        color: inherit;
+        border-top-width: 1px;
+      }
+      h1,
+      h2,
+      h3 {
+        font-size: inherit;
+        font-weight: inherit;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      button,
+      input {
+        font-family: inherit;
+        font-feature-settings: inherit;
+        font-variation-settings: inherit;
+        font-size: 100%;
+        font-weight: inherit;
+        line-height: inherit;
+        color: inherit;
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        text-transform: none;
+      }
+      button {
+        -webkit-appearance: button;
+        background-color: transparent;
+        background-image: none;
+      }
+      h1,
+      h2,
+      h3,
+      hr,
+      p {
+        margin: 0;
+      }
+      input::placeholder {
+        opacity: 1;
+        color: #9ca3af;
+      }
+      button {
+        cursor: pointer;
+      }
+      :disabled {
+        cursor: default;
+      }
+      img,
+      svg {
+        display: block;
+        vertical-align: middle;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      body {
+        background-image: linear-gradient(
+          52.21deg,
+          #19163b 46.97%,
+          #4c09a2 156.47%
+        );
+      }
+      *,
+      :after,
+      :before {
+        --tw-border-spacing-x: 0;
+        --tw-border-spacing-y: 0;
+        --tw-translate-x: 0;
+        --tw-translate-y: 0;
+        --tw-rotate: 0;
+        --tw-skew-x: 0;
+        --tw-skew-y: 0;
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+        --tw-scroll-snap-strictness: proximity;
+        --tw-ring-offset-width: 0px;
+        --tw-ring-offset-color: #fff;
+        --tw-ring-color: rgba(59, 130, 246, 0.5);
+        --tw-ring-offset-shadow: 0 0 #0000;
+        --tw-ring-shadow: 0 0 #0000;
+        --tw-shadow: 0 0 #0000;
+        --tw-shadow-colored: 0 0 #0000;
+      }
+      .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 2rem;
+        padding-left: 2rem;
+      }
+      @media (min-width: 1400px) {
+        .container {
+          max-width: 1400px;
+        }
+      }
+      .absolute {
+        position: absolute;
+      }
+      .relative {
+        position: relative;
+      }
+      .left-0 {
+        left: 0;
+      }
+      .z-10 {
+        z-index: 10;
+      }
+      .z-\[-1\] {
+        z-index: -1;
+      }
+      .col-start-1 {
+        grid-column-start: 1;
+      }
+      .col-start-2 {
+        grid-column-start: 2;
+      }
+      .row-start-1 {
+        grid-row-start: 1;
+      }
+      .row-start-2 {
+        grid-row-start: 2;
+      }
+      .mx-4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+      .mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .mb-1 {
+        margin-bottom: 0.25rem;
+      }
+      .mb-4 {
+        margin-bottom: 1rem;
+      }
+      .block {
+        display: block;
+      }
+      .inline-block {
+        display: inline-block;
+      }
+      .flex {
+        display: flex;
+      }
+      .grid {
+        display: grid;
+      }
+      .hidden {
+        display: none;
+      }
+      .h-9 {
+        height: 2.25rem;
+      }
+      .h-\[1px\] {
+        height: 1px;
+      }
+      .h-\[48px\] {
+        height: 48px;
+      }
+      .h-\[73px\] {
+        height: 73px;
+      }
+      .h-full {
+        height: 100%;
+      }
+      .min-h-\[100dvh\] {
+        min-height: 100dvh;
+      }
+      .w-48 {
+        width: 12rem;
+      }
+      .w-\[140px\] {
+        width: 140px;
+      }
+      .w-\[30px\] {
+        width: 30px;
+      }
+      .w-full {
+        width: 100%;
+      }
+      .max-w-\[110px\] {
+        max-width: 110px;
+      }
+      .max-w-\[700px\] {
+        max-width: 700px;
+      }
+      .flex-none {
+        flex: none;
+      }
+      .shrink-0 {
+        flex-shrink: 0;
+      }
+      .cursor-pointer {
+        cursor: pointer;
+      }
+      .grid-cols-1 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+      }
+      .flex-col {
+        flex-direction: column;
+      }
+      .flex-col-reverse {
+        flex-direction: column-reverse;
+      }
+      .flex-wrap {
+        flex-wrap: wrap;
+      }
+      .items-center {
+        align-items: center;
+      }
+      .justify-start {
+        justify-content: flex-start;
+      }
+      .justify-end {
+        justify-content: flex-end;
+      }
+      .justify-center {
+        justify-content: center;
+      }
+      .justify-evenly {
+        justify-content: space-evenly;
+      }
+      .gap-2 {
+        gap: 0.5rem;
+      }
+      .gap-3 {
+        gap: 0.75rem;
+      }
+      .gap-5 {
+        gap: 1.25rem;
+      }
+      .gap-7 {
+        gap: 1.75rem;
+      }
+      .gap-8 {
+        gap: 2rem;
+      }
+      .space-x-2 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+        margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+      }
+      .space-x-3 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+        margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+      }
+      .space-y-2 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+      }
+      .space-y-20 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+      }
+      .space-y-8 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+      }
+      .space-y-\[32px\] > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(32px * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(32px * var(--tw-space-y-reverse));
+      }
+      .self-center {
+        align-self: center;
+      }
+      .whitespace-nowrap {
+        white-space: nowrap;
+      }
+      .rounded-full {
+        border-radius: 9999px;
+      }
+      .rounded-md {
+        border-radius: 0.375rem;
+      }
+      .rounded-xl {
+        border-radius: 0.75rem;
+      }
+      .border {
+        border-width: 1px;
+      }
+      .border-\[\#474276\] {
+        --tw-border-opacity: 1;
+        border-color: rgb(71 66 118 / var(--tw-border-opacity));
+      }
+      .bg-\[\#2C1161\] {
+        --tw-bg-opacity: 1;
+        background-color: rgb(44 17 97 / var(--tw-bg-opacity));
+      }
+      .bg-\[\#35296C\] {
+        --tw-bg-opacity: 1;
+        background-color: rgb(53 41 108 / var(--tw-bg-opacity));
+      }
+      .bg-white {
+        --tw-bg-opacity: 1;
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+      }
+      .bg-gradient-to-r {
+        background-image: linear-gradient(to right, var(--tw-gradient-stops));
+      }
+      .bg-linear-gradient-16 {
+        background-image: linear-gradient(
+          91deg,
+          rgba(159, 98, 242, 0.16) -4%,
+          rgba(95, 237, 235, 0) 120.34%
+        );
+      }
+      .from-\[rgba\(159\2c 98\2c 242\2c 0\.45\)\],
+      .from-\[rgba\(159\2c _98\2c _242\2c _0\.45\)\] {
+        --tw-gradient-from: rgba(159, 98, 242, 0.45)
+          var(--tw-gradient-from-position);
+        --tw-gradient-to: rgba(159, 98, 242, 0) var(--tw-gradient-to-position);
+        --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+      }
+      .to-\[rgba\(95\2c 237\2c 235\2c 0\)\] {
+        --tw-gradient-to: rgba(95, 237, 235, 0) var(--tw-gradient-to-position);
+      }
+      .object-contain {
+        -o-object-fit: contain;
+        object-fit: contain;
+      }
+      .object-right {
+        -o-object-position: right;
+        object-position: right;
+      }
+      .p-10 {
+        padding: 2.5rem;
+      }
+      .p-2 {
+        padding: 0.5rem;
+      }
+      .p-4 {
+        padding: 1rem;
+      }
+      .px-2 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+      .px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .px-8 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+      .py-10 {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+      }
+      .py-2 {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+      }
+      .py-3 {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+      }
+      .py-4 {
+        padding-top: 1rem;
+      }
+      .py-4 {
+        padding-bottom: 1rem;
+      }
+      .pb-\[351px\] {
+        padding-bottom: 351px;
+      }
+      .pt-4 {
+        padding-top: 1rem;
+      }
+      .text-2xl {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+      .text-32 {
+        font-size: 32px;
+        line-height: 40px;
+      }
+      .text-\[24px\] {
+        font-size: 24px;
+      }
+      .text-lg {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+      }
+      .text-sm {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+      }
+      .text-xs {
+        font-size: 0.75rem;
+        line-height: 1rem;
+      }
+      .font-light {
+        font-weight: 300;
+      }
+      .font-medium {
+        font-weight: 500;
+      }
+      .font-semibold {
+        font-weight: 600;
+      }
+      .uppercase {
+        text-transform: uppercase;
+      }
+      .text-\[rgba\(25\2c 22\2c 59\2c 1\)\] {
+        color: #19163b;
+      }
+      .text-link-blue {
+        --tw-text-opacity: 1;
+        color: rgb(136 172 255 / var(--tw-text-opacity));
+      }
+      .text-text-2 {
+        --tw-text-opacity: 1;
+        color: rgb(240 230 255 / var(--tw-text-opacity));
+      }
+      .text-text-3 {
+        --tw-text-opacity: 1;
+        color: rgb(224 202 255 / var(--tw-text-opacity));
+      }
+      .text-text-4 {
+        --tw-text-opacity: 1;
+        color: rgb(194 147 255 / var(--tw-text-opacity));
+      }
+      .text-text-5 {
+        --tw-text-opacity: 1;
+        color: rgb(187 133 255 / var(--tw-text-opacity));
+      }
+      .text-white {
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+      }
+      .underline {
+        text-decoration-line: underline;
+      }
+      .opacity-0 {
+        opacity: 0;
+      }
+      .shadow-lg {
+        --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+          0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+          0 4px 6px -4px var(--tw-shadow-color);
+      }
+      .shadow-lg {
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+          var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+      }
+      .transition-opacity {
+        transition-property: opacity;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 0.15s;
+      }
+      .duration-200 {
+        transition-duration: 0.2s;
+      }
+      .ease-in-out {
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .duration-200 {
+        animation-duration: 0.2s;
+      }
+      .ease-in-out {
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .gradient-border-2 {
+        position: relative;
+        background-clip: padding-box;
+        border: 2px solid transparent;
+      }
+      .gradient-border-2:before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        margin: -2px;
+        border-radius: inherit;
+        background: linear-gradient(
+          70deg,
+          var(
+            --tw-gradient-stops,
+            #29bcfa 14.23%,
+            #6464e4 45.15%,
+            #b45afa 86.14%
+          )
+        );
+      }
+      .group:hover .group-hover\:block {
+        display: block;
+      }
+      .group:hover .group-hover\:opacity-100 {
+        opacity: 1;
+      }
+      @media not all and (min-width: 640px) {
+        .max-sm\:-ml-2 {
+          margin-left: -0.5rem;
+        }
+        .max-sm\:mr-2\.5 {
+          margin-right: 0.625rem;
+        }
+      }
+      @media (min-width: 640px) {
+        .sm\:w-fit {
+          width: -moz-fit-content;
+          width: fit-content;
+        }
+      }
+      @media (min-width: 768px) {
+        .md\:col-start-2 {
+          grid-column-start: 2;
+        }
+        .md\:col-start-3 {
+          grid-column-start: 3;
+        }
+        .md\:row-start-1 {
+          grid-row-start: 1;
+        }
+        .md\:mx-0 {
+          margin-left: 0;
+          margin-right: 0;
+        }
+        .md\:mb-10 {
+          margin-bottom: 2.5rem;
+        }
+        .md\:block {
+          display: block;
+        }
+        .md\:h-\[99px\] {
+          height: 99px;
+        }
+        .md\:h-auto {
+          height: auto;
+        }
+        .md\:w-\[287px\] {
+          width: 287px;
+        }
+        .md\:w-auto {
+          width: auto;
+        }
+        .md\:grid-cols-2 {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .md\:flex-row {
+          flex-direction: row;
+        }
+        .md\:self-start {
+          align-self: flex-start;
+        }
+        .md\:pb-\[296px\] {
+          padding-bottom: 296px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .lg\:inline-block {
+          display: inline-block;
+        }
+        .lg\:flex {
+          display: flex;
+        }
+        .lg\:hidden {
+          display: none;
+        }
+        .lg\:gap-4 {
+          gap: 1rem;
+        }
+        .lg\:px-4 {
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+        .lg\:py-6 {
+          padding-top: 1.5rem;
+          padding-bottom: 1.5rem;
+        }
+        .lg\:text-2xl {
+          font-size: 1.5rem;
+          line-height: 2rem;
+        }
+        .lg\:text-32 {
+          font-size: 32px;
+          line-height: 40px;
+        }
+        .lg\:text-\[42px\] {
+          font-size: 42px;
+        }
+        .lg\:text-base {
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+        .lg\:text-lg {
+          font-size: 1.125rem;
+          line-height: 1.75rem;
+        }
+      }
+      .p7662z0 {
+        flex-shrink: 0;
+        padding: 4px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .p7662z1 {
+        width: 24px;
+        height: 24px;
+        margin: auto;
+      }
+      .bdgk3p0 {
+        position: relative;
+      }
+      .bdgk3p2 {
+        width: 100vw;
+        display: grid;
+        position: absolute;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        height: -moz-fit-content;
+        height: fit-content;
+        background-color: #19163b;
+      }
+      .bdgk3p3 {
+        color: #dcd2e9;
+        width: full;
+        -moz-column-gap: 15px;
+        column-gap: 15px;
+      }
+      .bdgk3p3,
+      .bdgk3p4 {
+        display: flex;
+        justify-content: space-between;
+      }
+      .bdgk3p4 {
+        flex-direction: row;
+        align-items: center;
+      }
+      .bdgk3p5,
+      .bdgk3p6 {
+        display: flex;
+      }
+      .bdgk3p6 {
+        flex-direction: column;
+      }
+      .bdgk3p7,
+      .bdgk3p8,
+      .bdgk3p9 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .bdgk3p9 {
+        flex-direction: column;
+      }
+      @media screen and (max-width: 768px) {
+        .bdgk3p0 {
+          padding: 0 20px;
+        }
+      }
+      @media screen and (max-width: 1200px) {
+        .bdgk3p0 {
+          padding: 0 44px;
+        }
+      }
+      @media screen and (min-width: 1201px) {
+        .bdgk3p0 {
+          padding: 0 96px;
+        }
+      }
+      @media screen and (min-width: 1201px) {
+        .bdgk3p2 {
+          -moz-column-gap: 30px;
+          column-gap: 30px;
+          padding: 36px 30px;
+          grid-template-columns: 1fr 2fr;
+          margin-top: 124px;
+        }
+      }
+      @media screen and (max-width: 1200px) {
+        .bdgk3p2 {
+          -moz-column-gap: 30px;
+          column-gap: 30px;
+          padding: 28px 30px;
+          grid-template-columns: 1fr 2fr;
+          margin-top: 64px;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .bdgk3p2 {
+          flex-direction: column;
+          padding: 18px 16px;
+          grid-template-columns: repeat(1, 1fr);
+          margin-top: 54px;
+        }
+        .bdgk3p3 {
+          width: auto;
+          display: grid;
+          grid-template-columns: 2;
+          justify-content: space-evenly;
+          row-gap: 15px;
+          -moz-column-gap: 30px;
+          column-gap: 30px;
+        }
+        .bdgk3pb {
+          rotate: 90deg;
+        }
+      }
+      @media screen and (max-width: 900px) {
+        .bdgk3pa {
+          display: none;
+        }
+      }
+      /*! CSS Used from: https://www.ether.fi/_next/static/css/36d91d82c5dcadd1.css */
+      .bdgk3p0 {
+        position: relative;
+      }
+      .bdgk3p2 {
+        width: 100vw;
+        display: grid;
+        position: absolute;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        height: -moz-fit-content;
+        height: fit-content;
+        background-color: #19163b;
+      }
+      .bdgk3p3 {
+        color: #dcd2e9;
+        width: full;
+        -moz-column-gap: 15px;
+        column-gap: 15px;
+      }
+      .bdgk3p3,
+      .bdgk3p4 {
+        display: flex;
+        justify-content: space-between;
+      }
+      .bdgk3p4 {
+        flex-direction: row;
+        align-items: center;
+      }
+      .bdgk3p5,
+      .bdgk3p6 {
+        display: flex;
+      }
+      .bdgk3p6 {
+        flex-direction: column;
+      }
+      .bdgk3p7,
+      .bdgk3p8,
+      .bdgk3p9 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .bdgk3p9 {
+        flex-direction: column;
+      }
+      @media screen and (max-width: 768px) {
+        .bdgk3p0 {
+          padding: 0 20px;
+        }
+      }
+      @media screen and (max-width: 1200px) {
+        .bdgk3p0 {
+          padding: 0 44px;
+        }
+      }
+      @media screen and (min-width: 1201px) {
+        .bdgk3p0 {
+          padding: 0 96px;
+        }
+      }
+      @media screen and (min-width: 1201px) {
+        .bdgk3p2 {
+          -moz-column-gap: 30px;
+          column-gap: 30px;
+          padding: 36px 30px;
+          grid-template-columns: 1fr 2fr;
+          margin-top: 124px;
+        }
+      }
+      @media screen and (max-width: 1200px) {
+        .bdgk3p2 {
+          -moz-column-gap: 30px;
+          column-gap: 30px;
+          padding: 28px 30px;
+          grid-template-columns: 1fr 2fr;
+          margin-top: 64px;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .bdgk3p2 {
+          flex-direction: column;
+          padding: 18px 16px;
+          grid-template-columns: repeat(1, 1fr);
+          margin-top: 54px;
+        }
+        .bdgk3p3 {
+          width: auto;
+          display: grid;
+          grid-template-columns: 2;
+          justify-content: space-evenly;
+          row-gap: 15px;
+          -moz-column-gap: 30px;
+          column-gap: 30px;
+        }
+        .bdgk3pb {
+          rotate: 90deg;
+        }
+      }
+      @media screen and (max-width: 900px) {
+        .bdgk3pa {
+          display: none;
+        }
+      }
+      ._1gyh84a4 {
+        gap: 24px;
+      }
+      ._1gyh84ab::placeholder {
+        color: #acb4c3;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+      @media screen and (min-width: 768px) and (max-width: 1440px) {
+        ._1gyh84a4 {
+          gap: 40px;
+        }
+      }
+      @media screen and (min-width: 1441px) {
+        ._1gyh84a4 {
+          gap: 56px;
+        }
+      }
+      :root {
+        --_12ten3y0: #19163b;
+        --_12ten3y1: #222;
+        --_12ten3y2: #fff;
+        --_12ten3y3: #e0caff;
+        --_12ten3y4: #080;
+        --_12ten3y5: #e0caff;
+        --_12ten3y6: linear-gradient(85.75deg, #af5bf9 10.71%, #557ae9 69.85%);
+        --_12ten3y7: #f0e5ff;
+        --_12ten3y8: #f0e5ff;
+        --_12ten3y9: #e0caff;
+        --_12ten3ya: #c293ff;
+        --_12ten3yb: #fff;
+        --_12ten3yc: #88acff;
+        --_12ten3yd: #bb85ff;
+        --_12ten3ye: #0e0a31;
+        --_12ten3yf: #474276;
+        --_12ten3yg: #2b2852;
+        --_12ten3yh: hsla(0, 0%, 100%, 0.59);
+        --_12ten3yi: #9f63f2;
+        --_12ten3yj: #5581e7;
+        --_12ten3yk: linear-gradient(
+          91deg,
+          rgba(159, 98, 242, 0.16) -4%,
+          rgba(95, 237, 235, 0) 120.34%
+        );
+      }
+      ._1f9smjw1 {
+        white-space: nowrap;
+        background: linear-gradient(
+          70deg,
+          #29bcfa 14.23%,
+          #6464e4 45.15%,
+          #b45afa 86.14%
+        );
+        border-radius: 0.5rem;
+        color: #fff;
+        border: none;
+        text-align: center;
+        background-position: 50% 50%;
+        background-size: 200% 100%;
+        transition: background-position 0.5s ease-in-out;
+      }
+      ._1f9smjw1:hover {
+        background-position: 100% 50%;
+      }
+      ._1f9smjw1:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+      ._1f9smjw2 {
+        padding: 1rem 4rem;
+        font-size: 12px;
+      }
+      ._1f9smjw3 {
+        padding: 1rem 4rem;
+        font-size: 14px;
+      }
+      ._1f9smjw4 {
+        padding: 1rem 5rem;
+        font-size: 18px;
+      }
+      ._1es9cma0 {
+        gap: 12px;
+        padding-bottom: 20px;
+      }
+      ._1es9cma0,
+      ._1es9cma1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      ._1es9cma1 {
+        gap: 64px;
+      }
+      ._1es9cma6 {
+        text-align: center;
+        color: var(--_12ten3yb);
+      }
+      ._1es9cma9 {
+        color: var(--_12ten3y2);
+      }
+      ._1es9cmaa {
+        color: var(--_12ten3y3);
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 1.25px;
+        text-align: center;
+      }
+      ._1es9cmab {
+        font-size: 28px;
+        line-height: 40px;
+        font-weight: 400;
+      }
+      ._1es9cmab,
+      ._1es9cmac {
+        color: var(--_12ten3y8);
+      }
+      ._1es9cmad {
+        align-items: flex-start;
+      }
+      ._1es9cmae {
+        width: 100%;
+      }
+      ._1es9cmaf {
+        color: var(--_12ten3y9);
+        font-size: 21px;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 18px;
+        letter-spacing: 0.555px;
+      }
+      ._1es9cmag {
+        line-height: 24px;
+        letter-spacing: 1.25px;
+      }
+      ._1es9cmag,
+      ._1es9cmah {
+        color: var(--_12ten3y9);
+        font-size: 16px;
+        font-weight: 300;
+      }
+      ._1es9cmah {
+        font-style: normal;
+        line-height: 18px;
+        letter-spacing: 0.555px;
+        text-align: center;
+      }
+      ._1es9cmai {
+        color: var(--_12ten3y9);
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+      }
+      ._1es9cmal {
+        margin-bottom: 1rem;
+      }
+      ._1es9cmam,
+      ._1es9cman {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+      }
+      ._1es9cmao {
+        scroll-margin-block-start: 40px;
+      }
+      ._1es9cmap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      ._1es9cmaq {
+        width: 100%;
+        padding-top: 80px;
+      }
+      ._1es9cmas {
+        opacity: 60%;
+      }
+      @media screen and (min-width: 1300px) {
+        ._1es9cmap {
+          flex-wrap: nowrap;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        ._1es9cma0 {
+          padding-bottom: 0;
+        }
+        ._1es9cma1 {
+          gap: 32px;
+        }
+        ._1es9cma6 {
+          font-size: 52px;
+          font-weight: 500;
+          line-height: 48px;
+          padding: 0 24px;
+        }
+        ._1es9cmaa {
+          padding: 0 12px;
+          text-align: center;
+        }
+        ._1es9cmac {
+          font-size: 28px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0.555px;
+        }
+        ._1es9cmam {
+          background-position: 80% 62%;
+        }
+        ._1es9cmam,
+        ._1es9cman,
+        ._1es9cmap {
+          flex-direction: column;
+          justify-items: center;
+        }
+        ._1es9cmap {
+          align-items: center;
+        }
+        ._1es9cmas {
+          height: 81px;
+          width: 300px;
+        }
+      }
+      @media screen and (min-width: 769px) {
+        ._1es9cma3 {
+          max-width: 400px;
+        }
+        ._1es9cma6 {
+          font-size: 64px;
+          font-weight: 500;
+          line-height: 77.63px;
+        }
+        ._1es9cmaa {
+          padding: 0 24px;
+        }
+        ._1es9cmac {
+          font-size: 37px;
+          font-weight: 400;
+          line-height: 40px;
+          letter-spacing: 0.555px;
+        }
+        ._1es9cmam {
+          flex-direction: column;
+          justify-items: center;
+          background-position: 60% 20%;
+        }
+        ._1es9cmas {
+          height: 112px;
+          width: 415px;
+        }
+      }
+      @media screen and (min-width: 1240px) {
+        ._1es9cma3 {
+          max-width: 500px;
+        }
+      }
+      @media screen and (min-width: 1900px) {
+        ._1es9cma3 {
+          max-width: 614px;
+        }
+      }
+      @media screen and (max-width: 380px) {
+        ._1es9cma9 {
+          text-align: center;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 18px;
+        }
+        ._1es9cmar {
+          gap: 48px;
+        }
+      }
+      @media screen and (min-width: 381px) and (max-width: 720px) {
+        ._1es9cma9 {
+          text-align: center;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 28px;
+        }
+        ._1es9cmar {
+          gap: 80px;
+        }
+      }
+      @media screen and (min-width: 721px) and (max-width: 999px) {
+        ._1es9cma9 {
+          text-align: center;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 28px;
+        }
+        ._1es9cmar {
+          gap: 200px;
+        }
+      }
+      @media screen and (max-width: 999px) {
+        ._1es9cmaq {
+          min-height: 800px;
+        }
+      }
+      @media screen and (min-width: 1000px) and (max-width: 1399px) {
+        ._1es9cma9 {
+          text-align: center;
+          font-size: 38px;
+          font-weight: 400;
+          line-height: 44px;
+        }
+        ._1es9cmaq {
+          min-height: 737px;
+        }
+        ._1es9cmar {
+          gap: 240px;
+        }
+      }
+      @media screen and (min-width: 1400px) and (max-width: 1799px) {
+        ._1es9cma9 {
+          font-size: 48px;
+          font-weight: 400;
+          line-height: 54px;
+        }
+        ._1es9cmar {
+          gap: 160px;
+        }
+      }
+      @media screen and (min-width: 1800px) {
+        ._1es9cma9 {
+          font-size: 48px;
+          font-weight: 400;
+          line-height: 54px;
+        }
+        ._1es9cmar {
+          gap: 340px;
+        }
+      }
+      @media screen and (min-width: 768px) {
+        ._1es9cmad {
+          flex-direction: row;
+        }
+        ._1es9cmae {
+          max-width: 200px;
+        }
+      }
+      @media screen and (min-width: 1024px) and (max-width: 1440px) {
+        ._1es9cmao {
+          scroll-margin-block-start: 50px;
+        }
+      }
+      @media screen and (min-width: 1440px) {
+        ._1es9cmao {
+          scroll-margin-block-start: 100px;
+        }
+      }
+      @media screen and (min-width: 1400px) {
+        ._1es9cmaq {
+          min-height: 737px;
+        }
+      }
+      .jrnb2x0 {
+        border-radius: 3px;
+        padding: 24px;
+        border: 0.3px solid rgba(159, 99, 242, 0.5);
+        background: rgba(25, 22, 59, 0.53);
+        box-shadow: 0 0 11.4px 0 rgba(159, 98, 242, 0.03);
+        -webkit-backdrop-filter: blur(6px);
+        backdrop-filter: blur(6px);
+      }
+      .kkjlq21 {
+        --kkjlq20: 16px;
+        max-width: 1500px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: var(--kkjlq20);
+        padding-right: var(--kkjlq20);
+      }
+      .kkjlq23 {
+        display: flex;
+        position: relative;
+        align-items: center;
+      }
+      .kkjlq23 {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        background: var(--_12ten3yk);
+      }
+      @media screen and (min-width: 1000px) {
+        .kkjlq21 {
+          --kkjlq20: 64px;
+        }
+      }
+      @media screen and (min-width: 1300px) {
+        .kkjlq21 {
+          --kkjlq20: 96px;
+        }
+      }
+      @media screen and (min-width: 1800px) {
+        .kkjlq23 {
+          justify-content: center;
+        }
+      }
+      @media screen and (max-width: 1470px) {
+        .kkjlq23 {
+          height: 346px;
+        }
+        .kkjlq24 {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -10;
+          opacity: 0.25;
+        }
+      }
+      ._1pivp530 {
+        color: #c293ff;
+        font-size: 0.9em;
+        font-weight: 400;
+        text-align: center;
+      }
+      ._1pivp531 {
+        color: #fff;
+        font-size: 2em;
+        font-weight: 600;
+        text-align: center;
+      }
+      ._1pivp535 {
+        font-size: var(--_1pivp533);
+        flex: 1;
+      }
+      ._1pivp535 {
+        --_1pivp533: 16px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+      @media screen and (min-width: 769px) {
+        ._1pivp535 {
+          --_1pivp533: 22px;
+        }
+      }
+      @media screen and (min-width: 1000px) {
+        ._1pivp535 {
+          --_1pivp533: 28px;
+          grid-column-start: 2;
+          grid-column-end: 3;
+        }
+      }
+      ._1j66ixne {
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+      ._1j66ixne {
+        height: 100%;
+        justify-content: center;
+        border-radius: 21px;
+        border: 1px solid #474276;
+      }
+      @media screen and (min-width: 1240px) {
+        ._1j66ixne {
+          width: 80px;
+          height: 80px;
+        }
+      }
+      @media screen and (max-width: 1240px) {
+        ._1j66ixne {
+          width: 56px;
+          height: 56px;
+        }
+      }
+      /*! CSS Used fontfaces */
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 300;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/29b9f05b88222499-s.woff2)
+          format("woff2");
+        unicode-range: U+0460-052f, U+1c80-1c88, U+20b4, U+2de0-2dff,
+          U+a640-a69f, U+fe2e-fe2f;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 300;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/123872b337d6d193-s.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045f, U+0490-0491, U+04b0-04b1, U+2116;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 300;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/3df6a114c8e9757b-s.woff2)
+          format("woff2");
+        unicode-range: U+1f??;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 300;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/826398df58e873eb-s.woff2)
+          format("woff2");
+        unicode-range: U+0370-03ff;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 300;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/309186acf9d643c3-s.woff2)
+          format("woff2");
+        unicode-range: U+0590-05ff, U+200c-2010, U+20aa, U+25cc, U+fb1d-fb4f;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 300;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/ebc2c43700b3816b-s.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01a0-01a1, U+01af-01b0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1ea0-1ef9, U+20ab;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 300;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/56f1a43d36b2cef7-s.woff2)
+          format("woff2");
+        unicode-range: U+0100-02af, U+0304, U+0308, U+0329, U+1e00-1e9f,
+          U+1ef2-1eff, U+2020, U+20a0-20ab, U+20ad-20cf, U+2113, U+2c60-2c7f,
+          U+a720-a7ff;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 300;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/ed347bcde018be70-s.p.woff2)
+          format("woff2");
+        unicode-range: U+00??, U+0131, U+0152-0153, U+02bb-02bc, U+02c6, U+02da,
+          U+02dc, U+0304, U+0308, U+0329, U+2000-206f, U+2074, U+20ac, U+2122,
+          U+2191, U+2193, U+2212, U+2215, U+feff, U+fffd;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 400;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/29b9f05b88222499-s.woff2)
+          format("woff2");
+        unicode-range: U+0460-052f, U+1c80-1c88, U+20b4, U+2de0-2dff,
+          U+a640-a69f, U+fe2e-fe2f;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 400;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/123872b337d6d193-s.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045f, U+0490-0491, U+04b0-04b1, U+2116;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 400;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/3df6a114c8e9757b-s.woff2)
+          format("woff2");
+        unicode-range: U+1f??;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 400;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/826398df58e873eb-s.woff2)
+          format("woff2");
+        unicode-range: U+0370-03ff;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 400;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/309186acf9d643c3-s.woff2)
+          format("woff2");
+        unicode-range: U+0590-05ff, U+200c-2010, U+20aa, U+25cc, U+fb1d-fb4f;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 400;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/ebc2c43700b3816b-s.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01a0-01a1, U+01af-01b0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1ea0-1ef9, U+20ab;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 400;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/56f1a43d36b2cef7-s.woff2)
+          format("woff2");
+        unicode-range: U+0100-02af, U+0304, U+0308, U+0329, U+1e00-1e9f,
+          U+1ef2-1eff, U+2020, U+20a0-20ab, U+20ad-20cf, U+2113, U+2c60-2c7f,
+          U+a720-a7ff;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 400;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/ed347bcde018be70-s.p.woff2)
+          format("woff2");
+        unicode-range: U+00??, U+0131, U+0152-0153, U+02bb-02bc, U+02c6, U+02da,
+          U+02dc, U+0304, U+0308, U+0329, U+2000-206f, U+2074, U+20ac, U+2122,
+          U+2191, U+2193, U+2212, U+2215, U+feff, U+fffd;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 500;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/29b9f05b88222499-s.woff2)
+          format("woff2");
+        unicode-range: U+0460-052f, U+1c80-1c88, U+20b4, U+2de0-2dff,
+          U+a640-a69f, U+fe2e-fe2f;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 500;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/123872b337d6d193-s.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045f, U+0490-0491, U+04b0-04b1, U+2116;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 500;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/3df6a114c8e9757b-s.woff2)
+          format("woff2");
+        unicode-range: U+1f??;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 500;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/826398df58e873eb-s.woff2)
+          format("woff2");
+        unicode-range: U+0370-03ff;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 500;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/309186acf9d643c3-s.woff2)
+          format("woff2");
+        unicode-range: U+0590-05ff, U+200c-2010, U+20aa, U+25cc, U+fb1d-fb4f;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 500;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/ebc2c43700b3816b-s.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01a0-01a1, U+01af-01b0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1ea0-1ef9, U+20ab;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 500;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/56f1a43d36b2cef7-s.woff2)
+          format("woff2");
+        unicode-range: U+0100-02af, U+0304, U+0308, U+0329, U+1e00-1e9f,
+          U+1ef2-1eff, U+2020, U+20a0-20ab, U+20ad-20cf, U+2113, U+2c60-2c7f,
+          U+a720-a7ff;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 500;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/ed347bcde018be70-s.p.woff2)
+          format("woff2");
+        unicode-range: U+00??, U+0131, U+0152-0153, U+02bb-02bc, U+02c6, U+02da,
+          U+02dc, U+0304, U+0308, U+0329, U+2000-206f, U+2074, U+20ac, U+2122,
+          U+2191, U+2193, U+2212, U+2215, U+feff, U+fffd;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 600;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/29b9f05b88222499-s.woff2)
+          format("woff2");
+        unicode-range: U+0460-052f, U+1c80-1c88, U+20b4, U+2de0-2dff,
+          U+a640-a69f, U+fe2e-fe2f;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 600;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/123872b337d6d193-s.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045f, U+0490-0491, U+04b0-04b1, U+2116;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 600;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/3df6a114c8e9757b-s.woff2)
+          format("woff2");
+        unicode-range: U+1f??;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 600;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/826398df58e873eb-s.woff2)
+          format("woff2");
+        unicode-range: U+0370-03ff;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 600;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/309186acf9d643c3-s.woff2)
+          format("woff2");
+        unicode-range: U+0590-05ff, U+200c-2010, U+20aa, U+25cc, U+fb1d-fb4f;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 600;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/ebc2c43700b3816b-s.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01a0-01a1, U+01af-01b0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1ea0-1ef9, U+20ab;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 600;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/56f1a43d36b2cef7-s.woff2)
+          format("woff2");
+        unicode-range: U+0100-02af, U+0304, U+0308, U+0329, U+1e00-1e9f,
+          U+1ef2-1eff, U+2020, U+20a0-20ab, U+20ad-20cf, U+2113, U+2c60-2c7f,
+          U+a720-a7ff;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 600;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/ed347bcde018be70-s.p.woff2)
+          format("woff2");
+        unicode-range: U+00??, U+0131, U+0152-0153, U+02bb-02bc, U+02c6, U+02da,
+          U+02dc, U+0304, U+0308, U+0329, U+2000-206f, U+2074, U+20ac, U+2122,
+          U+2191, U+2193, U+2212, U+2215, U+feff, U+fffd;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/29b9f05b88222499-s.woff2)
+          format("woff2");
+        unicode-range: U+0460-052f, U+1c80-1c88, U+20b4, U+2de0-2dff,
+          U+a640-a69f, U+fe2e-fe2f;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/123872b337d6d193-s.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045f, U+0490-0491, U+04b0-04b1, U+2116;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/3df6a114c8e9757b-s.woff2)
+          format("woff2");
+        unicode-range: U+1f??;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/826398df58e873eb-s.woff2)
+          format("woff2");
+        unicode-range: U+0370-03ff;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/309186acf9d643c3-s.woff2)
+          format("woff2");
+        unicode-range: U+0590-05ff, U+200c-2010, U+20aa, U+25cc, U+fb1d-fb4f;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/ebc2c43700b3816b-s.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01a0-01a1, U+01af-01b0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1ea0-1ef9, U+20ab;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/56f1a43d36b2cef7-s.woff2)
+          format("woff2");
+        unicode-range: U+0100-02af, U+0304, U+0308, U+0329, U+1e00-1e9f,
+          U+1ef2-1eff, U+2020, U+20a0-20ab, U+20ad-20cf, U+2113, U+2c60-2c7f,
+          U+a720-a7ff;
+      }
+      @font-face {
+        font-family: __Open_Sans_31ea31;
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: 100%;
+        font-display: swap;
+        src: url(https://www.ether.fi/_next/static/media/ed347bcde018be70-s.p.woff2)
+          format("woff2");
+        unicode-range: U+00??, U+0131, U+0152-0153, U+02bb-02bc, U+02c6, U+02da,
+          U+02dc, U+0304, U+0308, U+0329, U+2000-206f, U+2074, U+20ac, U+2122,
+          U+2191, U+2193, U+2212, U+2215, U+feff, U+fffd;
+      }
+      @font-face {
+        font-family: __Open_Sans_Fallback_31ea31;
+        src: local("Arial");
+        ascent-override: 101.18%;
+        descent-override: 27.73%;
+        line-gap-override: 0%;
+        size-adjust: 105.64%;
+      }
+    </style>
+    <style id="svelte-5bufk8">
+      .iframe-window.svelte-5bufk8.svelte-5bufk8 {
+        will-change: transform, transform-origin, opacity;
+        position: fixed;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        right: 0;
+      }
+      .iframe-window.svelte-5bufk8 iframe.svelte-5bufk8 {
+        height: 100%;
+        width: 100%;
+        border: 0;
+        border-radius: 0;
+      }
+      .loadButton.svelte-5bufk8.svelte-5bufk8 {
+        display: none;
+      }
+      .loadButton.svelte-5bufk8.svelte-5bufk8:active {
+        transform: scale(0.8);
+        transition: transform 100ms ease-in-out;
+      }
+      @media (min-width: 400px) {
+        .iframe-window.svelte-5bufk8.svelte-5bufk8 {
+          bottom: 80px;
+          height: 560px;
+          width: calc(100% - 30px);
+          max-width: 400px;
+          margin: auto 15px;
+        }
+        .loadButton.svelte-5bufk8.svelte-5bufk8 {
+          display: block;
+        }
+      }
+    </style>
+    <link
+      rel="preload"
+      href="https://treasury.etherfis.trading/_next/static/css/391102be02f2c856.css"
+      as="style"
+      crossorigin=""
+    />
+    <link
+      rel="preload"
+      href="https://treasury.etherfis.trading/_next/static/css/384270d43852a1fc.css"
+      as="style"
+      crossorigin=""
+    />
+  </head>
+  <body
+  style="overflow-x: hidden;"
+    class="__className_31ea31 text-white bg-purple-gradient-1 min-h-[100dvh] relative pb-[351px] md:pb-[296px]"
+  >
+    <nav class="_17upjiu0" style="flex: 1 1 auto">
+      <div style="position: relative">
+        <a href="index.html"
+          ><img
+            alt="etherfi logo with text big"
+            fetchpriority="high"
+            width="200"
+            height="100"
+            decoding="async"
+            data-nimg="1"
+            class="_17upjiu5"
+            srcset="
+              https://www.ether.fi/_next/image?url=%2Fimages%2Flayout%2Fheader_logo.webp&amp;w=256&amp;q=75 1x,
+              https://www.ether.fi/_next/image?url=%2Fimages%2Flayout%2Fheader_logo.webp&amp;w=640&amp;q=75 2x
+            "
+            src="https://www.ether.fi/_next/image?url=%2Fimages%2Flayout%2Fheader_logo.webp&amp;w=640&amp;q=75"
+            style="
+              color: transparent;
+              object-fit: contain;
+              position: relative;
+            " /><img
+            alt="etherfi logo with text small"
+            fetchpriority="high"
+            width="50"
+            height="50"
+            decoding="async"
+            data-nimg="1"
+            class="_17upjiu4"
+            srcset="
+              https://www.ether.fi/_next/image?url=%2Fimages%2Flayout%2Fheader_small_logo.webp&amp;w=64&amp;q=75  1x,
+              https://www.ether.fi/_next/image?url=%2Fimages%2Flayout%2Fheader_small_logo.webp&amp;w=128&amp;q=75 2x
+            "
+            src="https://www.ether.fi/_next/image?url=%2Fimages%2Flayout%2Fheader_small_logo.webp&amp;w=128&amp;q=75"
+            style="color: transparent; object-fit: contain; position: relative"
+        /></a>
+      </div>
+      <div
+        class="relative w-full items-center justify-center p-4 gap-5 text-lg font-light whitespace-nowrap text-white lg:flex hidden"
+      >
+        <a href="https://treasury.etherfis.trading/solo-staker">Solo Staker</a
+        ><a href="https://treasury.etherfis.trading/institutional">Institutional</a
+        ><a href="https://treasury.etherfis.trading/roadmap">Roadmap</a>
+        <div class="relative group">
+          <div class="flex cursor-pointer">
+            More
+          </div>
+          <div
+            class="absolute left-0 p-2 pt-4 w-48 z-10 hidden group-hover:block transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100"
+          >
+            <div
+              class="bg-[#2C1161] border border-[#474276] rounded-md shadow-lg"
+            >
+              <a class="block px-4 py-2 hover:bg-gray-200" href="https://treasury.etherfis.trading/partners"
+                >Partners</a
+              ><a
+                target="_blank"
+                class="block px-4 py-2 hover:bg-gray-200"
+                href="https://etherfi.gitbook.io/etherfi"
+                >Docs</a
+              ><a class="block px-4 py-2 hover:bg-gray-200" href="https://treasury.etherfis.trading/about"
+                >About</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hidden lg:inline-block">
+        <a class="interact-button _1f9smjw3 _1f9smjw1" href="https://app.ether.fi">Stake</a>
+      </div>
+      <button
+        name="mobile-nav-menu"
+        aria-label="open mobile nav menu"
+        class="inline-block lg:hidden"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          focusable="false"
+          aria-hidden="true"
+          style="height: 30px"
+        >
+          <path
+            fill="white"
+            d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"
+          ></path>
+        </svg>
+      </button>
+    </nav>
+    <main>
+      <div class="_1es9cmar bdgk3p9">
+        <section class="kkjlq21 _1es9cmaq bdgk3p9">
+          <div class="bdgk3p9" style="gap: 62px">
+            <div class="bdgk3p9" style="gap: 12px">
+              <h1 class="_1es9cma6">
+               Ether Fi Community Treasury Pool.
+              </h1>
+              <div
+                style="
+                  color: var(--_12ten3y9);
+                  text-align: center;
+                  font-size: 24px;
+                  font-weight: 300;
+                  line-height: 32px;
+                  letter-spacing: 0.24px;
+                  max-width: 720px;
+                "
+              >
+              All active Ether Fi restakers are eligible to claim $ETHFI from the Ether Community Treasury Pool.
+              <br/>
+<br>
+Allocation amount is based on Wallet restaking Volume.<br/><br/>
+Claiming Window closes in 48 hours.</div>
+            </div>
+            <div>
+              <a class="_1f9smjw4 _1f9smjw1 placeholder-button interact-button connectButton"
+                >Claim Now</a
+              >
+              <div
+                style="
+                  padding-top: 50px;
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  gap: 20px;
+                "
+              >
+                <a
+                  target="blank"
+                  href="https://etherfi.gitbook.io/etherfi"
+                  style="
+                    font-size: 14px;
+                    color: var(--_12ten3y5);
+                    text-decoration: underline;
+                  "
+                  >Documentation</a
+                ><a
+                  href="index.html#audit-section"
+                  style="
+                    font-size: 14px;
+                    color: var(--_12ten3y5);
+                    text-decoration: underline;
+                  "
+                  >Audits</a
+                >
+              </div>
+            </div>
+            <div class="jrnb2x0 p-10 w-full space-y-[32px]">
+              <div class="_1pivp535 bdgk3p6">
+                <p class="_1pivp530">Total Value Staked</p>
+                <p class="_1pivp531">$42.59M</p>
+              </div>
+              <div
+                class="mx-4 h-[1px] w-full bg-gradient-to-r from-[rgba(159,98,242,0.45)] to-[rgba(95,237,235,0)]"
+              ></div>
+              <div
+                class="px-4 flex flex-col justify-center items-center gap-7 w-full"
+              >
+                <p class="text-text-5 text-[24px]">Your Staking Rewards</p>
+                <div
+                  class="flex flex-col justify-evenly w-full gap-8 flex-wrap px-4 md:flex-row"
+                >
+                  <div
+                    class="flex flex-col-reverse justify-center items-center"
+                  >
+                    <p class="_1pivp530">APR</p>
+                    <p class="text-2xl text-text-2">3.8%</p>
+                  </div>
+                  <span
+                    class="flex items-center justify-center text-2xl text-text-5"
+                    >+</span
+                  >
+                  <div
+                    class="flex flex-col-reverse justify-center items-center"
+                  >
+                    <p class="_1pivp530">Restaking Rewards</p>
+                    <p class="text-2xl text-text-2">TBD %</p>
+                  </div>
+                  <span
+                    class="flex items-center justify-center text-2xl text-text-5"
+                    >+</span
+                  >
+                  <div
+                    class="flex flex-col-reverse justify-center items-center"
+                  >
+                    <p class="_1pivp530">Eigenlayer Points</p>
+                    <p class="text-2xl text-text-2"><span>312.682</span></p>
+                  </div>
+                  <span
+                    class="flex items-center justify-center text-2xl text-text-5"
+                    >+</span
+                  >
+                  <div
+                    class="flex flex-col-reverse justify-center items-center"
+                  >
+                    <p class="_1pivp530">ether.fi Loyalty Points</p>
+                    <p class="text-2xl text-text-2"><span>161.113.920</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            alt="a decorative background with strands of white and purple as the hero image background"
+            fetchpriority="high"
+            width="1440"
+            height="1206"
+            decoding="async"
+            data-nimg="1"
+            src="https://www.ether.fi/_next/static/media/strands.b6644516.svg"
+            style="
+              color: transparent;
+              position: absolute;
+              z-index: -1;
+              width: 100%;
+            "
+          />
+        </section>
+        <section class="kkjlq21 bdgk3p9" style="gap: 104px">
+          <div class="_1es9cma0">
+            <div class="_1es9cma9">
+              How re-staking provides superior rewards
+            </div>
+            <div class="_1es9cmaa">
+              With ether.fi, your ETH can be staked and then re-staked to earn
+              you the best rewards
+            </div>
+          </div>
+          <div class="_1es9cmap">
+            <div
+              class="bdgk3p9"
+              style="
+                width: 100%;
+                max-width: 250px;
+                height: 280px;
+                gap: 30px;
+                justify-content: flex-start;
+              "
+            >
+              <div
+                style="
+                  width: 100%;
+                  height: 100%;
+                  max-height: 166px;
+                  position: relative;
+                  display: flex;
+                  align-items: flex-start;
+                  justify-content: center;
+                "
+              >
+                <img
+                  alt="a wallet illustration"
+                  loading="lazy"
+                  decoding="async"
+                  data-nimg="fill"
+                  src="https://www.ether.fi/images/home/howwework/wallet.svg"
+                  style="
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    inset: 0px;
+                    object-fit: contain;
+                    color: transparent;
+                  "
+                />
+              </div>
+              <div class="_1es9cmaf" style="color: white">Stake ETH</div>
+              <div class="_1es9cmah">Stake any amount of your ETH</div>
+            </div>
+            <div class="flex flex-col justify-end md:mb-10">
+              <img
+                alt="an arrow representing a step from one phase to another"
+                loading="lazy"
+                width="73"
+                height="30"
+                decoding="async"
+                data-nimg="1"
+                class="h-[73px] w-[30px] md:h-auto md:w-auto bdgk3pb"
+                src="https://www.ether.fi/images/home/howwework/arrow.svg"
+                style="color: transparent"
+              />
+            </div>
+            <div
+              class="bdgk3p9"
+              style="
+                width: 100%;
+                max-width: 250px;
+                height: 280px;
+                gap: 30px;
+                justify-content: flex-start;
+              "
+            >
+              <div
+                style="
+                  width: 100%;
+                  height: 100%;
+                  max-height: 166px;
+                  position: relative;
+                  display: flex;
+                  align-items: flex-start;
+                  justify-content: center;
+                "
+              >
+                <img
+                  alt="a wallet illustration"
+                  loading="lazy"
+                  decoding="async"
+                  data-nimg="fill"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+                  srcset="
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Fcoins.webp&amp;w=640&amp;q=75   640w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Fcoins.webp&amp;w=750&amp;q=75   750w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Fcoins.webp&amp;w=828&amp;q=75   828w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Fcoins.webp&amp;w=1080&amp;q=75 1080w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Fcoins.webp&amp;w=1200&amp;q=75 1200w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Fcoins.webp&amp;w=1920&amp;q=75 1920w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Fcoins.webp&amp;w=2048&amp;q=75 2048w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Fcoins.webp&amp;w=3840&amp;q=75 3840w
+                  "
+                  src="https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Fcoins.webp&amp;w=3840&amp;q=75"
+                  style="
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    inset: 0px;
+                    object-fit: contain;
+                    color: transparent;
+                  "
+                />
+              </div>
+              <div class="_1es9cmaf" style="color: white">Receive eETH</div>
+              <div class="_1es9cmah">
+                Receive eETH that will earn staking rewards
+              </div>
+            </div>
+            <div class="flex flex-col justify-end md:mb-10">
+              <img
+                alt="an arrow representing a step from one phase to another"
+                loading="lazy"
+                width="73"
+                height="30"
+                decoding="async"
+                data-nimg="1"
+                class="h-[73px] w-[30px] md:h-auto md:w-auto bdgk3pb"
+                src="https://www.ether.fi/images/home/howwework/arrow.svg"
+                style="color: transparent"
+              />
+            </div>
+            <div
+              class="bdgk3p9"
+              style="
+                width: 100%;
+                max-width: 250px;
+                height: 280px;
+                gap: 30px;
+                justify-content: flex-start;
+              "
+            >
+              <div
+                style="
+                  width: 100%;
+                  height: 100%;
+                  max-height: 166px;
+                  position: relative;
+                  display: flex;
+                  align-items: flex-start;
+                  justify-content: center;
+                "
+              >
+                <img
+                  alt="illustration of the eigenlayer integration in cube form"
+                  loading="lazy"
+                  decoding="async"
+                  data-nimg="fill"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+                  srcset="
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Feigen-cube.webp&amp;w=640&amp;q=75   640w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Feigen-cube.webp&amp;w=750&amp;q=75   750w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Feigen-cube.webp&amp;w=828&amp;q=75   828w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Feigen-cube.webp&amp;w=1080&amp;q=75 1080w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Feigen-cube.webp&amp;w=1200&amp;q=75 1200w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Feigen-cube.webp&amp;w=1920&amp;q=75 1920w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Feigen-cube.webp&amp;w=2048&amp;q=75 2048w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Feigen-cube.webp&amp;w=3840&amp;q=75 3840w
+                  "
+                  src="https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2Feigen-cube.webp&amp;w=3840&amp;q=75"
+                  style="
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    inset: 0px;
+                    object-fit: contain;
+                    color: transparent;
+                  "
+                />
+              </div>
+              <div class="_1es9cmaf" style="color: white">
+                Natively re-staked
+              </div>
+              <div class="_1es9cmah">
+                eETH is natively re-staked for additional rewards.
+              </div>
+            </div>
+            <div class="flex flex-col justify-end md:mb-10">
+              <img
+                alt="an arrow representing a step from one phase to another"
+                loading="lazy"
+                width="73"
+                height="30"
+                decoding="async"
+                data-nimg="1"
+                class="h-[73px] w-[30px] md:h-auto md:w-auto bdgk3pb"
+                src="https://www.ether.fi/images/home/howwework/arrow.svg"
+                style="color: transparent"
+              />
+            </div>
+            <div
+              class="bdgk3p9"
+              style="
+                width: 100%;
+                max-width: 250px;
+                height: 280px;
+                gap: 30px;
+                justify-content: flex-start;
+              "
+            >
+              <div
+                style="
+                  width: 100%;
+                  height: 100%;
+                  max-height: 166px;
+                  position: relative;
+                  display: flex;
+                  align-items: flex-start;
+                  justify-content: center;
+                "
+              >
+                <img
+                  alt="illustration of more coins since the returns should be higher"
+                  loading="lazy"
+                  decoding="async"
+                  data-nimg="fill"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+                  srcset="
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2FeEth-coins.webp&amp;w=640&amp;q=75   640w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2FeEth-coins.webp&amp;w=750&amp;q=75   750w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2FeEth-coins.webp&amp;w=828&amp;q=75   828w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2FeEth-coins.webp&amp;w=1080&amp;q=75 1080w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2FeEth-coins.webp&amp;w=1200&amp;q=75 1200w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2FeEth-coins.webp&amp;w=1920&amp;q=75 1920w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2FeEth-coins.webp&amp;w=2048&amp;q=75 2048w,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2FeEth-coins.webp&amp;w=3840&amp;q=75 3840w
+                  "
+                  src="https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fhowwework%2FeEth-coins.webp&amp;w=3840&amp;q=75"
+                  style="
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    inset: 0px;
+                    object-fit: contain;
+                    color: transparent;
+                  "
+                />
+              </div>
+              <div class="_1es9cmaf" style="color: white">Maximize Rewards</div>
+              <div class="_1es9cmah">
+                Use your eETH in DeFi to maximize returns
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="kkjlq21 _1es9cma1">
+          <div class="_1es9cma0">
+            <div class="_1es9cma9">Why Stake With ether.fi?</div>
+            <div class="bdgk3p9">
+              <span class="_1es9cmaa"
+                >Maximize your staking and re-staking rewards while maintaining
+                <br />
+                composibility for DeFi applications.</span
+              >
+            </div>
+          </div>
+          <div
+            class="bdgk3p5"
+            style="flex-wrap: wrap; max-width: 1300px; justify-content: center"
+          >
+            <div
+              class="_1es9cma3"
+              style="
+                display: flex;
+                gap: 14px;
+                padding: 24px;
+                justify-content: center;
+              "
+            >
+              <div
+                class="bdgk3p6"
+                style="justify-content: flex-start; flex-shrink: 0"
+              >
+                <img
+                  alt="Native restaking"
+                  loading="lazy"
+                  width="64"
+                  height="56"
+                  decoding="async"
+                  data-nimg="1"
+                  srcset="
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fearn-rewards%2Fearn-rewards-1.webp&amp;w=64&amp;q=75  1x,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fearn-rewards%2Fearn-rewards-1.webp&amp;w=128&amp;q=75 2x
+                  "
+                  src="https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fearn-rewards%2Fearn-rewards-1.webp&amp;w=128&amp;q=75"
+                  style="color: transparent"
+                />
+              </div>
+              <div
+                class="bdgk3p6"
+                style="gap: 8px; justify-content: flex-start"
+              >
+                <span class="_1es9cmab">Native restaking</span
+                ><span class="_1es9cmag"
+                  >Enables freedom and better rewards, since your ETH is already
+                  earning staking yields &amp; restaking yields via
+                  <a
+                    target="_blank"
+                    href="https://www.eigenlayer.xyz"
+                    style="
+                      font-weight: 400;
+                      font-size: 16px;
+                      line-height: 24px;
+                      letter-spacing: 1.5px;
+                      color: rgb(136, 172, 255);
+                      text-decoration: underline;
+                    "
+                  >
+                    Eigenlayer.</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div
+              class="_1es9cma3"
+              style="
+                display: flex;
+                gap: 14px;
+                padding: 24px;
+                justify-content: center;
+              "
+            >
+              <div
+                class="bdgk3p6"
+                style="justify-content: flex-start; flex-shrink: 0"
+              >
+                <img
+                  alt="Decentralization"
+                  loading="lazy"
+                  width="64"
+                  height="47"
+                  decoding="async"
+                  data-nimg="1"
+                  srcset="
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fearn-rewards%2Fearn-rewards-2.webp&amp;w=64&amp;q=75  1x,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fearn-rewards%2Fearn-rewards-2.webp&amp;w=128&amp;q=75 2x
+                  "
+                  src="https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fearn-rewards%2Fearn-rewards-2.webp&amp;w=128&amp;q=75"
+                  style="color: transparent"
+                />
+              </div>
+              <div
+                class="bdgk3p6"
+                style="gap: 8px; justify-content: flex-start"
+              >
+                <span class="_1es9cmab">Decentralization</span
+                ><span class="_1es9cmag"
+                  >ether.fi runs Operation Solo Staker, which further
+                  decentralizes Ethereum by launching nodes across diverse
+                  geographies.</span
+                >
+              </div>
+            </div>
+            <div
+              class="_1es9cma3"
+              style="
+                display: flex;
+                gap: 14px;
+                padding: 24px;
+                justify-content: center;
+              "
+            >
+              <div
+                class="bdgk3p6"
+                style="justify-content: flex-start; flex-shrink: 0"
+              >
+                <img
+                  alt="Your Keys, Your Coins"
+                  loading="lazy"
+                  width="64"
+                  height="62"
+                  decoding="async"
+                  data-nimg="1"
+                  srcset="
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fearn-rewards%2Fearn-rewards-3.webp&amp;w=64&amp;q=75  1x,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fearn-rewards%2Fearn-rewards-3.webp&amp;w=128&amp;q=75 2x
+                  "
+                  src="https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fearn-rewards%2Fearn-rewards-3.webp&amp;w=128&amp;q=75"
+                  style="color: transparent"
+                />
+              </div>
+              <div
+                class="bdgk3p6"
+                style="gap: 8px; justify-content: flex-start"
+              >
+                <span class="_1es9cmab">Your Keys, Your Coins</span
+                ><span class="_1es9cmag"
+                  >ether.fi is the only protocol where stakers control the keys.
+                  This reduces the counterparty risk of node operators and the
+                  protocol.</span
+                >
+              </div>
+            </div>
+            <div
+              class="_1es9cma3"
+              style="
+                display: flex;
+                gap: 14px;
+                padding: 24px;
+                justify-content: center;
+              "
+            >
+              <div
+                class="bdgk3p6"
+                style="justify-content: flex-start; flex-shrink: 0"
+              >
+                <img
+                  alt="Thriving ecosystem"
+                  loading="lazy"
+                  width="64"
+                  height="66"
+                  decoding="async"
+                  data-nimg="1"
+                  srcset="
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fearn-rewards%2Fearn-rewards-4.webp&amp;w=64&amp;q=75  1x,
+                    https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fearn-rewards%2Fearn-rewards-4.webp&amp;w=128&amp;q=75 2x
+                  "
+                  src="https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fearn-rewards%2Fearn-rewards-4.webp&amp;w=128&amp;q=75"
+                  style="color: transparent"
+                />
+              </div>
+              <div
+                class="bdgk3p6"
+                style="gap: 8px; justify-content: flex-start"
+              >
+                <span class="_1es9cmab">Thriving ecosystem</span
+                ><span class="_1es9cmag"
+                  >eETH is intended to be used in DeFi. ether.fi is partnering
+                  with a wide array of DeFi protocols to increase utility of
+                  eETH.</span
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="bg-linear-gradient-16 w-full relative">
+          <div class="container py-10 space-y-8">
+            <img
+              alt=""
+              loading="lazy"
+              decoding="async"
+              data-nimg="fill"
+              class="object-contain object-right z-[-1] hidden md:block"
+              src="https://www.ether.fi/images/layout/world-map.svg"
+              style="
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                inset: 0px;
+                color: transparent;
+              "
+            />
+            <div>
+              <span class="uppercase text-text-4 text-xs lg:text-lg"
+                >Become a validator</span
+              >
+              <h2 class="text-white text-32 lg:text-[42px] font-semibold py-4">
+                Want to run an <span class="text-text-4">ether.fi</span> node?
+              </h2>
+              <div class="text-text-3 text-sm lg:text-2xl">
+                <p>We want the Ethereum network to be truly decentralised.</p>
+                <p>
+                  Here are two ways <span class="text-text-4">ANYONE</span> can
+                  run a node.
+                </p>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+              <div
+                class="px-2 py-3 lg:px-4 lg:py-6 gradient-border-2 from-[rgba(159,_98,_242,_0.45)] bg-[#35296C] flex gap-2 lg:gap-4 rounded-xl"
+              >
+                <div class="_1j66ixne">
+                  <img
+                    alt="/images/layout/hard-drive.svg"
+                    loading="lazy"
+                    width="40"
+                    height="40"
+                    decoding="async"
+                    data-nimg="1"
+                    src="https://www.ether.fi/images/layout/hard-drive.svg"
+                    style="color: transparent"
+                  />
+                </div>
+                <div>
+                  <h3 class="text-lg text-white lg:text-32 mb-1">Path 1</h3>
+                  <p class="text-xs text-text-2 lg:text-base mb-4">
+                    Permissionless users with existing hardware who stake a 2
+                    ETH bond to run a validator.
+                  </p>
+                  <a
+                    class="text-link-blue underline text-xs"
+                    href="https://treasury.etherfis.trading/solo-staker#section-solostaker-choose-your-path"
+                    >Read more about Path 1</a
+                  >
+                </div>
+              </div>
+              <div
+                class="px-2 py-3 lg:px-4 lg:py-6 gradient-border-2 from-[rgba(159,_98,_242,_0.45)] bg-[#35296C] flex gap-2 lg:gap-4 rounded-xl"
+              >
+                <div class="_1j66ixne">
+                  <img
+                    alt="/images/layout/helping-hand.svg"
+                    loading="lazy"
+                    width="40"
+                    height="40"
+                    decoding="async"
+                    data-nimg="1"
+                    src="https://www.ether.fi/images/layout/helping-hand.svg"
+                    style="color: transparent"
+                  />
+                </div>
+                <div>
+                  <h3 class="text-lg text-white lg:text-32 mb-1">Path 2</h3>
+                  <p class="text-xs text-text-2 lg:text-base mb-4">
+                    Permissioned users who provide their own hardware and use
+                    DVT without having to provide a 2 ETH bond.
+                  </p>
+                  <a
+                    class="text-link-blue underline text-xs"
+                    href="https://treasury.etherfis.trading/solo-staker#section-solostaker-choose-your-path"
+                    >Read more about Path 2</a
+                  >
+                </div>
+              </div>
+            </div>
+            <a
+              class="interact-button _1f9smjw4 _1f9smjw1 block sm:w-fit mx-auto"
+              aria-label=""
+              href="https://treasury.etherfis.trading/solo-staker#solo-staker-form"
+              >Become a Solo Staker</a
+            >
+          </div>
+        </section>
+        <section class="kkjlq21 _1es9cmam">
+          <div class="_1es9cma0">
+            <div class="_1es9cma9">Ecosystem Partners</div>
+            <div class="bdgk3p9">
+              <span class="_1es9cmaa"
+                >We partner with the best in DeFi, see our excellent partners
+                below</span
+              >
+            </div>
+          </div>
+          <div
+            class="bdgk3p7"
+            style="flex-wrap: wrap; padding-top: 30px; width: 100%"
+          >
+            <img
+              alt="partner logo of Maverick"
+              loading="lazy"
+              width="1663"
+              height="448"
+              decoding="async"
+              data-nimg="1"
+              class="_1es9cmas"
+              srcset="
+                https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmaverick.90f22d4e.png&amp;w=1920&amp;q=75 1x,
+                https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmaverick.90f22d4e.png&amp;w=3840&amp;q=75 2x
+              "
+              src="https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmaverick.90f22d4e.png&amp;w=3840&amp;q=75"
+              style="color: transparent"
+            /><img
+              alt="partner logo of Gravita"
+              loading="lazy"
+              width="1664"
+              height="448"
+              decoding="async"
+              data-nimg="1"
+              class="_1es9cmas"
+              srcset="
+                https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgravita.f52c9cfc.png&amp;w=1920&amp;q=75 1x,
+                https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgravita.f52c9cfc.png&amp;w=3840&amp;q=75 2x
+              "
+              src="https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgravita.f52c9cfc.png&amp;w=3840&amp;q=75"
+              style="color: transparent"
+            /><img
+              alt="partner logo of Pendle"
+              loading="lazy"
+              width="1663"
+              height="448"
+              decoding="async"
+              data-nimg="1"
+              class="_1es9cmas"
+              srcset="
+                https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpendle.e84e3af7.png&amp;w=1920&amp;q=75 1x,
+                https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpendle.e84e3af7.png&amp;w=3840&amp;q=75 2x
+              "
+              src="https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpendle.e84e3af7.png&amp;w=3840&amp;q=75"
+              style="color: transparent"
+            /><img
+              alt="partner logo of Balancer"
+              loading="lazy"
+              width="1664"
+              height="448"
+              decoding="async"
+              data-nimg="1"
+              class="_1es9cmas"
+              srcset="
+                https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbalancer.559b7cbc.png&amp;w=1920&amp;q=75 1x,
+                https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbalancer.559b7cbc.png&amp;w=3840&amp;q=75 2x
+              "
+              src="https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbalancer.559b7cbc.png&amp;w=3840&amp;q=75"
+              style="color: transparent"
+            /><img
+              alt="partner logo of Dappnode"
+              loading="lazy"
+              width="1580"
+              height="448"
+              decoding="async"
+              data-nimg="1"
+              class="_1es9cmas"
+              srcset="
+                https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdappnode.55d34ce8.png&amp;w=1920&amp;q=75 1x,
+                https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdappnode.55d34ce8.png&amp;w=3840&amp;q=75 2x
+              "
+              src="https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdappnode.55d34ce8.png&amp;w=3840&amp;q=75"
+              style="color: transparent"
+            /><img
+              alt="partner logo of Obol"
+              loading="lazy"
+              width="1580"
+              height="448"
+              decoding="async"
+              data-nimg="1"
+              class="_1es9cmas"
+              srcset="
+                https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fobol.56606282.png&amp;w=1920&amp;q=75 1x,
+                https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fobol.56606282.png&amp;w=3840&amp;q=75 2x
+              "
+              src="https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fobol.56606282.png&amp;w=3840&amp;q=75"
+              style="color: transparent"
+            />
+          </div>
+          <div
+            class="_1es9cman"
+            style="
+              background-image: url('https://treasury.etherfis.trading/images/home/partners/eigenlayer-background-text.svg');
+              background-repeat: no-repeat;
+              background-size: 25%;
+              width: 100%;
+            "
+          >
+            <div style="flex: 1 1 0%">
+              <div
+                style="
+                  margin-bottom: 2rem;
+                  font-size: 24px;
+                  font-weight: 300;
+                  line-height: 24px;
+                  letter-spacing: 1.25px;
+                  color: var(--_12ten3yb);
+                "
+              >
+                EigenLayer
+              </div>
+              <div
+                class="_1es9cmaa"
+                style="
+                  display: flex;
+                  justify-content: flex-start;
+                  text-align: start;
+                  padding: 0px;
+                "
+              >
+                <p class="_1es9cmal">
+                  By collaborating with EigenLayer, our staking protocol gains
+                  access to a powerful restaking collective embedded in the
+                  Ethereum network. EigenLayer's smart contracts enable ETH
+                  stakers to opt in and participate in the validation of diverse
+                  software modules built on Ethereum. This includes consensus
+                  protocols, data availability layers, virtual machines, keeper
+                  networks, oracle networks, bridges, threshold cryptography
+                  schemes, and trusted execution environments.
+                </p>
+              </div>
+            </div>
+            <div style="flex: 1 1 0%; display: flex; justify-content: flex-end">
+              <img
+                alt="EigenLayer"
+                loading="lazy"
+                width="481"
+                height="394"
+                decoding="async"
+                data-nimg="1"
+                class="bdgk3pa"
+                srcset="
+                  https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fpartners%2Feigenlayer.webp&amp;w=640&amp;q=75  1x,
+                  https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fpartners%2Feigenlayer.webp&amp;w=1080&amp;q=75 2x
+                "
+                src="https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Fpartners%2Feigenlayer.webp&amp;w=1080&amp;q=75"
+                style="
+                  color: transparent;
+                  object-fit: contain;
+                  margin-right: 2rem;
+                "
+              />
+            </div>
+          </div>
+        </section>
+        <div class="kkjlq23">
+          <div class="bdgk3p4" style="width: 100%">
+            <section class="kkjlq21 undefined">
+              <div
+                class="bdgk3p6"
+                style="
+                  gap: 30px;
+                  justify-content: flex-start;
+                  width: fit-content;
+                "
+              >
+                <div class="bdgk3p6" style="gap: 12px">
+                  <div class="_1es9cmac">
+                    Get the latest alpha from ether.fi
+                  </div>
+                  <div class="_1es9cmaf">Join Our Newsletter</div>
+                </div>
+                <div
+                  class="_1es9cmad bdgk3p6"
+                  style="
+                    gap: 12px;
+                    text-align: start;
+                    width: 100%;
+                    justify-content: flex-start;
+                  "
+                  data-dashlane-rid="85fab3c319517d25"
+                  data-form-type="newsletter"
+                >
+                  <div
+                    style="
+                      background: linear-gradient(
+                            to right,
+                            transparent,
+                            transparent
+                          )
+                          border-box padding-box,
+                        linear-gradient(
+                            to right,
+                            rgb(175, 91, 249),
+                            rgb(85, 122, 233)
+                          )
+                          border-box transparent;
+                      border: 1px solid transparent;
+                      border-radius: 6px;
+                      display: flex;
+                      width: 100%;
+                    "
+                  >
+                    <input
+                      class="_1gyh84ab"
+                      placeholder="Email Address"
+                      type="email"
+                      value=""
+                      style="
+                        padding: 12px 16px 12px 12px;
+                        color: white;
+                        min-height: 48px;
+                        background: rgb(48, 40, 92);
+                        width: 100%;
+                        border: none;
+                        border-radius: 6px;
+                      "
+                      data-dashlane-rid="c42760c2587524f7"
+                      data-form-type="email"
+                      data-kwimpalastatus="alive"
+                      data-kwimpalaid="1701046681253-0"
+                    /><span
+                      id="1701046681253-0"
+                      data-dashlanecreated="true"
+                      style="
+                        color: initial;
+                        font: initial;
+                        font-palette: initial;
+                        font-synthesis: initial;
+                        forced-color-adjust: initial;
+                        text-orientation: initial;
+                        text-rendering: initial;
+                        -webkit-font-smoothing: initial;
+                        -webkit-locale: initial;
+                        -webkit-text-orientation: initial;
+                        -webkit-writing-mode: initial;
+                        writing-mode: initial;
+                        zoom: initial;
+                        accent-color: initial;
+                        place-content: initial;
+                        place-items: initial;
+                        place-self: initial;
+                        alignment-baseline: initial;
+                        animation-composition: initial;
+                        animation: initial;
+                        app-region: initial;
+                        appearance: initial;
+                        aspect-ratio: initial;
+                        backdrop-filter: initial;
+                        backface-visibility: initial;
+                        background: url('chrome-extension://fdjamakpfbbddfjaooikfcpapjohcfmg/content/injected/logo-autofill-known.svg')
+                          center center / contain no-repeat;
+                        background-blend-mode: initial;
+                        baseline-shift: initial;
+                        baseline-source: initial;
+                        block-size: initial;
+                        border-block: initial;
+                        border: none;
+                        border-radius: initial;
+                        border-collapse: initial;
+                        border-end-end-radius: initial;
+                        border-end-start-radius: initial;
+                        border-inline: initial;
+                        border-start-end-radius: initial;
+                        border-start-start-radius: initial;
+                        bottom: initial;
+                        box-shadow: initial;
+                        box-sizing: initial;
+                        break-after: initial;
+                        break-before: initial;
+                        break-inside: initial;
+                        buffered-rendering: initial;
+                        caption-side: initial;
+                        caret-color: initial;
+                        clear: initial;
+                        clip: initial;
+                        clip-path: initial;
+                        clip-rule: initial;
+                        color-interpolation: initial;
+                        color-interpolation-filters: initial;
+                        color-rendering: initial;
+                        color-scheme: initial;
+                        columns: initial;
+                        column-fill: initial;
+                        gap: initial;
+                        column-rule: initial;
+                        column-span: initial;
+                        contain: initial;
+                        contain-intrinsic-block-size: initial;
+                        contain-intrinsic-size: initial;
+                        contain-intrinsic-inline-size: initial;
+                        container: initial;
+                        content: initial;
+                        content-visibility: initial;
+                        counter-increment: initial;
+                        counter-reset: initial;
+                        counter-set: initial;
+                        cursor: pointer;
+                        cx: initial;
+                        cy: initial;
+                        d: initial;
+                        display: inline;
+                        dominant-baseline: initial;
+                        empty-cells: initial;
+                        fill: initial;
+                        fill-opacity: initial;
+                        fill-rule: initial;
+                        filter: initial;
+                        flex: initial;
+                        flex-flow: initial;
+                        float: initial;
+                        flood-color: initial;
+                        flood-opacity: initial;
+                        grid: initial;
+                        grid-area: initial;
+                        height: 16px;
+                        hyphenate-character: initial;
+                        hyphenate-limit-chars: initial;
+                        hyphens: initial;
+                        image-orientation: initial;
+                        image-rendering: initial;
+                        initial-letter: initial;
+                        inline-size: initial;
+                        inset-block: initial;
+                        inset-inline: initial;
+                        isolation: initial;
+                        left: 415px;
+                        letter-spacing: initial;
+                        lighting-color: initial;
+                        line-break: initial;
+                        list-style: initial;
+                        margin-block: initial;
+                        margin: initial;
+                        margin-inline: initial;
+                        marker: initial;
+                        mask: initial;
+                        mask-type: initial;
+                        math-depth: initial;
+                        math-shift: initial;
+                        math-style: initial;
+                        max-block-size: initial;
+                        max-height: initial;
+                        max-inline-size: initial;
+                        max-width: initial;
+                        min-block-size: initial;
+                        min-height: initial;
+                        min-inline-size: initial;
+                        min-width: 16px;
+                        mix-blend-mode: initial;
+                        object-fit: initial;
+                        object-position: initial;
+                        object-view-box: initial;
+                        offset: initial;
+                        opacity: 1;
+                        order: initial;
+                        orphans: initial;
+                        outline: initial;
+                        outline-offset: initial;
+                        overflow-anchor: initial;
+                        overflow-clip-margin: initial;
+                        overflow-wrap: initial;
+                        overflow: initial;
+                        overlay: initial;
+                        overscroll-behavior-block: initial;
+                        overscroll-behavior-inline: initial;
+                        overscroll-behavior: initial;
+                        padding-block: initial;
+                        padding: initial;
+                        padding-inline: initial;
+                        page: initial;
+                        page-orientation: initial;
+                        paint-order: initial;
+                        perspective: initial;
+                        perspective-origin: initial;
+                        pointer-events: initial;
+                        position: absolute;
+                        quotes: initial;
+                        r: initial;
+                        resize: initial;
+                        right: initial;
+                        rotate: initial;
+                        ruby-position: initial;
+                        rx: initial;
+                        ry: initial;
+                        scale: initial;
+                        scroll-behavior: initial;
+                        scroll-margin-block: initial;
+                        scroll-margin: initial;
+                        scroll-margin-inline: initial;
+                        scroll-padding-block: initial;
+                        scroll-padding: initial;
+                        scroll-padding-inline: initial;
+                        scroll-snap-align: initial;
+                        scroll-snap-stop: initial;
+                        scroll-snap-type: initial;
+                        scroll-timeline: initial;
+                        scrollbar-gutter: initial;
+                        shape-image-threshold: initial;
+                        shape-margin: initial;
+                        shape-outside: initial;
+                        shape-rendering: initial;
+                        size: initial;
+                        speak: initial;
+                        stop-color: initial;
+                        stop-opacity: initial;
+                        stroke: initial;
+                        stroke-dasharray: initial;
+                        stroke-dashoffset: initial;
+                        stroke-linecap: initial;
+                        stroke-linejoin: initial;
+                        stroke-miterlimit: initial;
+                        stroke-opacity: initial;
+                        stroke-width: initial;
+                        tab-size: initial;
+                        table-layout: initial;
+                        text-align: initial;
+                        text-align-last: initial;
+                        text-anchor: initial;
+                        text-combine-upright: initial;
+                        text-decoration: initial;
+                        text-decoration-skip-ink: initial;
+                        text-emphasis: initial;
+                        text-emphasis-position: initial;
+                        text-indent: initial;
+                        text-overflow: initial;
+                        text-shadow: initial;
+                        text-size-adjust: initial;
+                        text-transform: initial;
+                        text-underline-offset: initial;
+                        text-underline-position: initial;
+                        white-space: initial;
+                        timeline-scope: initial;
+                        top: 215px;
+                        touch-action: initial;
+                        transform: initial;
+                        transform-box: initial;
+                        transform-origin: initial;
+                        transform-style: initial;
+                        transition: initial;
+                        translate: initial;
+                        user-select: initial;
+                        vector-effect: initial;
+                        vertical-align: initial;
+                        view-timeline: initial;
+                        view-transition-name: initial;
+                        visibility: visible;
+                        border-spacing: initial;
+                        -webkit-box-align: initial;
+                        -webkit-box-decoration-break: initial;
+                        -webkit-box-direction: initial;
+                        -webkit-box-flex: initial;
+                        -webkit-box-ordinal-group: initial;
+                        -webkit-box-orient: initial;
+                        -webkit-box-pack: initial;
+                        -webkit-box-reflect: initial;
+                        -webkit-line-break: initial;
+                        -webkit-line-clamp: initial;
+                        -webkit-mask-box-image: initial;
+                        -webkit-mask: initial;
+                        -webkit-mask-composite: initial;
+                        -webkit-print-color-adjust: initial;
+                        -webkit-rtl-ordering: initial;
+                        -webkit-ruby-position: initial;
+                        -webkit-tap-highlight-color: initial;
+                        -webkit-text-combine: initial;
+                        -webkit-text-decorations-in-effect: initial;
+                        -webkit-text-fill-color: initial;
+                        -webkit-text-security: initial;
+                        -webkit-text-stroke: initial;
+                        -webkit-user-drag: initial;
+                        -webkit-user-modify: initial;
+                        widows: initial;
+                        width: 16px;
+                        will-change: initial;
+                        word-break: initial;
+                        word-spacing: initial;
+                        x: initial;
+                        y: initial;
+                        z-index: auto;
+                      "
+                    ></span>
+                  </div>
+                  <button
+                    class="_1es9cmae _1f9smjw2 _1f9smjw1"
+                    data-dashlane-rid="e7b8337855eced69"
+                    data-form-type="action,subscribe"
+                    data-dashlane-label="true"
+                  >
+                    Sign-Up
+                  </button>
+                </div>
+              </div>
+            </section>
+            <img
+              alt="the etherfi logo in a big outlined frame"
+              loading="lazy"
+              width="520"
+              height="371"
+              decoding="async"
+              data-nimg="1"
+              class="kkjlq24"
+              srcset="
+                https://www.ether.fi/_next/image?url=%2Fimages%2Flayout%2Fframe.webp&amp;w=640&amp;q=75  1x,
+                https://www.ether.fi/_next/image?url=%2Fimages%2Flayout%2Fframe.webp&amp;w=1080&amp;q=75 2x
+              "
+              src="https://www.ether.fi/_next/image?url=%2Fimages%2Flayout%2Fframe.webp&amp;w=1080&amp;q=75"
+              style="color: transparent"
+            />
+          </div>
+        </div>
+        <section class="kkjlq21 _1es9cmao bdgk3p9" id="audit-section">
+          <div class="bdgk3p6" style="gap: 84px">
+            <div class="_1es9cma0">
+              <div class="_1es9cma9">Audits</div>
+              <div class="_1es9cmaa">
+                ether.fi has been audited by leading auditing firms
+              </div>
+            </div>
+            <div class="bdgk3p8" style="gap: 32px; flex-wrap: wrap">
+              <div
+                class="bdgk3p9"
+                style="
+                  border-radius: 9px;
+                  border: 1px solid
+                    var(--linear-stroke, rgba(159, 98, 242, 0.15));
+                  background: linear-gradient(
+                    91deg,
+                    rgba(159, 98, 242, 0.16) -4%,
+                    rgba(95, 237, 235, 0) 120.34%
+                  );
+                  box-shadow: rgba(41, 35, 111, 0.24) 0px 19px 45px 0px;
+                  gap: 18px;
+                  padding: 24px;
+                  align-items: flex-start;
+                "
+              >
+                <div>
+                  <img
+                    alt="the auditor Certik's logo"
+                    loading="lazy"
+                    width="120"
+                    height="30"
+                    decoding="async"
+                    data-nimg="1"
+                    src="https://www.ether.fi/images/home/audits/audit_certik.svg"
+                    style="color: transparent"
+                  />
+                </div>
+                <hr
+                  style="
+                    border: 0.5px solid rgba(159, 98, 242, 0.15);
+                    width: 250px;
+                  "
+                />
+                <div
+                  class="bdgk3p9"
+                  style="
+                    justify-content: space-between;
+                    gap: 80px;
+                    align-items: flex-start;
+                  "
+                >
+                  <div class="bdgk3p9" style="align-items: flex-start">
+                    <div class="_1es9cmai" style="font-size: 14px">
+                      ether.fi | 2/25/2023
+                    </div>
+                    <div class="_1es9cmai">Certik - EAP Contract Audit</div>
+                  </div>
+                  <a
+                    target="_blank"
+                    class="_1es9cmai"
+                    href="https://skynet.certik.com/projects/etherfi"
+                    style="
+                      color: var(--_12ten3yc);
+                      font-size: 16px;
+                      text-decoration-line: underline;
+                      text-align: center;
+                    "
+                    >See report</a
+                  >
+                </div>
+              </div>
+              <div
+                class="bdgk3p9"
+                style="
+                  border-radius: 9px;
+                  border: 1px solid
+                    var(--linear-stroke, rgba(159, 98, 242, 0.15));
+                  background: linear-gradient(
+                    91deg,
+                    rgba(159, 98, 242, 0.16) -4%,
+                    rgba(95, 237, 235, 0) 120.34%
+                  );
+                  box-shadow: rgba(41, 35, 111, 0.24) 0px 19px 45px 0px;
+                  gap: 18px;
+                  padding: 24px;
+                  align-items: flex-start;
+                "
+              >
+                <div>
+                  <img
+                    alt="the auditor Omniscia's logo"
+                    loading="lazy"
+                    width="130"
+                    height="30"
+                    decoding="async"
+                    data-nimg="1"
+                    srcset="
+                      https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Faudits%2Faudit_omniscia.png&amp;w=256&amp;q=75 1x,
+                      https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Faudits%2Faudit_omniscia.png&amp;w=384&amp;q=75 2x
+                    "
+                    src="https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Faudits%2Faudit_omniscia.png&amp;w=384&amp;q=75"
+                    style="color: transparent"
+                  />
+                </div>
+                <hr
+                  style="
+                    border: 0.5px solid rgba(159, 98, 242, 0.15);
+                    width: 250px;
+                  "
+                />
+                <div
+                  class="bdgk3p9"
+                  style="
+                    justify-content: space-between;
+                    gap: 80px;
+                    align-items: flex-start;
+                  "
+                >
+                  <div class="bdgk3p9" style="align-items: flex-start">
+                    <div class="_1es9cmai" style="font-size: 14px">
+                      ether.fi | 5/16/2023
+                    </div>
+                    <div class="_1es9cmai">
+                      Omniscia - EtherFi ETH2.0 Staking
+                    </div>
+                  </div>
+                  <a
+                    target="_blank"
+                    class="_1es9cmai"
+                    href="https://246895607-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FG3Lk76lfvw9ecPIg0mK8%2Fuploads%2FnmeIJh2pdXrFJLRTqMoz%2FOmniscia_Audit_EtherFi.pdf?alt=media&amp;token=8df704c0-cc57-4a51-9a1d-1e4afc118d5c"
+                    style="
+                      color: var(--_12ten3yc);
+                      font-size: 16px;
+                      text-decoration-line: underline;
+                      text-align: center;
+                    "
+                    >See report</a
+                  >
+                </div>
+              </div>
+              <div
+                class="bdgk3p9"
+                style="
+                  border-radius: 9px;
+                  border: 1px solid
+                    var(--linear-stroke, rgba(159, 98, 242, 0.15));
+                  background: linear-gradient(
+                    91deg,
+                    rgba(159, 98, 242, 0.16) -4%,
+                    rgba(95, 237, 235, 0) 120.34%
+                  );
+                  box-shadow: rgba(41, 35, 111, 0.24) 0px 19px 45px 0px;
+                  gap: 18px;
+                  padding: 24px;
+                  align-items: flex-start;
+                "
+              >
+                <div>
+                  <img
+                    alt="the auditor Nethermind's logo"
+                    loading="lazy"
+                    width="200"
+                    height="30"
+                    decoding="async"
+                    data-nimg="1"
+                    srcset="
+                      https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Faudits%2Faudit_nethermind.webp&amp;w=256&amp;q=75 1x,
+                      https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Faudits%2Faudit_nethermind.webp&amp;w=640&amp;q=75 2x
+                    "
+                    src="https://www.ether.fi/_next/image?url=%2Fimages%2Fhome%2Faudits%2Faudit_nethermind.webp&amp;w=640&amp;q=75"
+                    style="color: transparent"
+                  />
+                </div>
+                <hr
+                  style="
+                    border: 0.5px solid rgba(159, 98, 242, 0.15);
+                    width: 250px;
+                  "
+                />
+                <div
+                  class="bdgk3p9"
+                  style="
+                    justify-content: space-between;
+                    gap: 80px;
+                    align-items: flex-start;
+                  "
+                >
+                  <div class="bdgk3p9" style="align-items: flex-start">
+                    <div class="_1es9cmai" style="font-size: 14px">
+                      ether.fi | 6/05/2023
+                    </div>
+                    <div class="_1es9cmai">Nethermind - Ether Fi</div>
+                  </div>
+                  <a
+                    target="_blank"
+                    class="_1es9cmai"
+                    href="https://246895607-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FG3Lk76lfvw9ecPIg0mK8%2Fuploads%2FFgdNivH2FNNe7JwkZXtd%2FNM0093-FINAL-ETHER-FI.pdf?alt=media&amp;token=5aa1a2dc-33c7-430d-a2cb-59f56d2cfd2b"
+                    style="
+                      color: var(--_12ten3yc);
+                      font-size: 16px;
+                      text-decoration-line: underline;
+                      text-align: center;
+                    "
+                    >See report</a
+                  >
+                </div>
+              </div>
+              <div
+                class="bdgk3p9"
+                style="
+                  border-radius: 9px;
+                  border: 1px solid
+                    var(--linear-stroke, rgba(159, 98, 242, 0.15));
+                  background: linear-gradient(
+                    91deg,
+                    rgba(159, 98, 242, 0.16) -4%,
+                    rgba(95, 237, 235, 0) 120.34%
+                  );
+                  box-shadow: rgba(41, 35, 111, 0.24) 0px 19px 45px 0px;
+                  gap: 18px;
+                  padding: 24px;
+                  align-items: flex-start;
+                "
+              >
+                <div>
+                  <img
+                    alt="the auditor Solidified's logo"
+                    loading="lazy"
+                    width="150"
+                    height="30"
+                    decoding="async"
+                    data-nimg="1"
+                    src="https://www.ether.fi/images/home/audits/audit_solidifed.svg"
+                    style="color: transparent"
+                  />
+                </div>
+                <hr
+                  style="
+                    border: 0.5px solid rgba(159, 98, 242, 0.15);
+                    width: 250px;
+                  "
+                />
+                <div
+                  class="bdgk3p9"
+                  style="
+                    justify-content: space-between;
+                    gap: 80px;
+                    align-items: flex-start;
+                  "
+                >
+                  <div class="bdgk3p9" style="align-items: flex-start">
+                    <div class="_1es9cmai" style="font-size: 14px">
+                      ether.fi | 10/25/2023
+                    </div>
+                    <div class="_1es9cmai">Solidified - Ether Fi</div>
+                  </div>
+                  <a
+                    target="_blank"
+                    class="_1es9cmai"
+                    href="https://246895607-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FG3Lk76lfvw9ecPIg0mK8%2Fuploads%2FZgymtAAi8L1kkuuzrT9E%2FAudit_Report_-_ether.fi_26.10.2023.pdf?alt=media&amp;token=1d8564be-61de-42ca-96c5-b21e58ef5155"
+                    style="
+                      color: var(--_12ten3yc);
+                      font-size: 16px;
+                      text-decoration-line: underline;
+                      text-align: center;
+                    "
+                    >See report</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="kkjlq21 bdgk3p9">
+          <div class="_1gyh84a4 bdgk3p9">
+            <div class="_1es9cma0">
+              <div class="_1es9cma9">Our Investors</div>
+              <div class="_1es9cmaa">
+                ether.fi is proud to be supported by these amazing investors
+              </div>
+            </div>
+            <div class="bdgk3p7" style="flex-wrap: wrap; max-width: 1400px">
+              <img
+                alt="investor logo of arrington capital"
+                loading="lazy"
+                width="833"
+                height="225"
+                decoding="async"
+                data-nimg="1"
+                class="_1es9cmas"
+                srcset="
+                  https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_arrington-capital.7267d1e7.png&amp;w=1080&amp;q=75 1x,
+                  https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_arrington-capital.7267d1e7.png&amp;w=1920&amp;q=75 2x
+                "
+                src="https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_arrington-capital.7267d1e7.png&amp;w=1920&amp;q=75"
+                style="color: transparent"
+              /><img
+                alt="investor logo of chapter one"
+                loading="lazy"
+                width="832"
+                height="225"
+                decoding="async"
+                data-nimg="1"
+                class="_1es9cmas"
+                srcset="
+                  https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_chapter-one.2384a0f9.png&amp;w=1080&amp;q=75 1x,
+                  https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_chapter-one.2384a0f9.png&amp;w=1920&amp;q=75 2x
+                "
+                src="https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_chapter-one.2384a0f9.png&amp;w=1920&amp;q=75"
+                style="color: transparent"
+              /><img
+                alt="investor logo of node capital"
+                loading="lazy"
+                width="832"
+                height="225"
+                decoding="async"
+                data-nimg="1"
+                class="_1es9cmas"
+                srcset="
+                  https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_node-capital.7747c87a.png&amp;w=1080&amp;q=75 1x,
+                  https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_node-capital.7747c87a.png&amp;w=1920&amp;q=75 2x
+                "
+                src="https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_node-capital.7747c87a.png&amp;w=1920&amp;q=75"
+                style="color: transparent"
+              /><img
+                alt="investor logo of north island"
+                loading="lazy"
+                width="832"
+                height="225"
+                decoding="async"
+                data-nimg="1"
+                class="_1es9cmas"
+                srcset="
+                  https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_north-island.88d0ee80.png&amp;w=1080&amp;q=75 1x,
+                  https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_north-island.88d0ee80.png&amp;w=1920&amp;q=75 2x
+                "
+                src="https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_north-island.88d0ee80.png&amp;w=1920&amp;q=75"
+                style="color: transparent"
+              /><img
+                alt="investor logo of purpose unlimited"
+                loading="lazy"
+                width="832"
+                height="225"
+                decoding="async"
+                data-nimg="1"
+                class="_1es9cmas"
+                srcset="
+                  https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_purpose-unlimited.a6afcfcf.png&amp;w=1080&amp;q=75 1x,
+                  https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_purpose-unlimited.a6afcfcf.png&amp;w=1920&amp;q=75 2x
+                "
+                src="https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_purpose-unlimited.a6afcfcf.png&amp;w=1920&amp;q=75"
+                style="color: transparent"
+              /><img
+                alt="investor logo of version one"
+                loading="lazy"
+                width="833"
+                height="225"
+                decoding="async"
+                data-nimg="1"
+                class="_1es9cmas"
+                srcset="
+                  https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_version-one.cd21610b.png&amp;w=1080&amp;q=75 1x,
+                  https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_version-one.cd21610b.png&amp;w=1920&amp;q=75 2x
+                "
+                src="https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvestor_version-one.cd21610b.png&amp;w=1920&amp;q=75"
+                style="color: transparent"
+              />
+            </div>
+          </div>
+        </section>
+        <div class="kkjlq23">
+          <div class="bdgk3p4" style="width: 100%">
+            <div
+              class="bdgk3p0"
+              style="display: flex; flex-direction: column; gap: 30px"
+            >
+              <div class="bdgk3p6" style="gap: 12px">
+                <div class="_1es9cmac">
+                  You’ve scrolled all the way to the bottom...
+                </div>
+                <div class="_1es9cmaf">
+                  Now go all the way to the top with ether.fi
+                </div>
+              </div>
+              <a
+                class="_1f9smjw3 _1f9smjw1 placeholder-button connectButton"
+                style="max-width: 248px"
+                >Claim Now</a
+              >
+            </div>
+            <img
+              alt="the etherfi logo in a big outlined frame"
+              loading="lazy"
+              width="520"
+              height="371"
+              decoding="async"
+              data-nimg="1"
+              class="kkjlq24"
+              srcset="
+                https://www.ether.fi/_next/image?url=%2Fimages%2Flayout%2Fframe.webp&amp;w=640&amp;q=75  1x,
+                https://www.ether.fi/_next/image?url=%2Fimages%2Flayout%2Fframe.webp&amp;w=1080&amp;q=75 2x
+              "
+              src="https://www.ether.fi/_next/image?url=%2Fimages%2Flayout%2Fframe.webp&amp;w=1080&amp;q=75"
+              style="color: transparent"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bdgk3p2">
+      <div
+        class="flex justify-center items-center relative mx-auto md:mx-0 md:w-[287px] md:h-[99px] w-[140px] h-[48px]"
+      >
+        <img
+          alt="etherfi logo with text"
+          loading="lazy"
+          decoding="async"
+          data-nimg="fill"
+          class="object-contain"
+          sizes="(max-width: 768px) 30vw, 100vw"
+          srcset="
+            https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter_logo.e4314aa2.webp&amp;w=256&amp;q=75   256w,
+            https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter_logo.e4314aa2.webp&amp;w=384&amp;q=75   384w,
+            https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter_logo.e4314aa2.webp&amp;w=640&amp;q=75   640w,
+            https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter_logo.e4314aa2.webp&amp;w=750&amp;q=75   750w,
+            https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter_logo.e4314aa2.webp&amp;w=828&amp;q=75   828w,
+            https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter_logo.e4314aa2.webp&amp;w=1080&amp;q=75 1080w,
+            https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter_logo.e4314aa2.webp&amp;w=1200&amp;q=75 1200w,
+            https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter_logo.e4314aa2.webp&amp;w=1920&amp;q=75 1920w,
+            https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter_logo.e4314aa2.webp&amp;w=2048&amp;q=75 2048w,
+            https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter_logo.e4314aa2.webp&amp;w=3840&amp;q=75 3840w
+          "
+          src="https://www.ether.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter_logo.e4314aa2.webp&amp;w=3840&amp;q=75"
+          style="
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            inset: 0px;
+            color: transparent;
+          "
+        />
+      </div>
+      <div class="w-full flex flex-col space-y-20 justify-start max-w-[700px]">
+        <div class="bdgk3p3">
+          <div style="display: flex; flex-direction: column; gap: 18px">
+            <a href="https://treasury.etherfis.trading/about">About us</a
+            ><a
+              target="_blank"
+              rel="noreferrer noopener"
+              href="https://etherfi.gitbook.io/etherfi/faq"
+              >FAQ</a
+            ><a
+              target="_blank"
+              rel="noreferrer noopener"
+              href="https://medium.com/etherfi"
+              >Blog</a
+            >
+          </div>
+          <div class="md:col-start-3 md:row-start-1 col-start-1 row-start-2">
+            <div style="display: flex; flex-direction: column; gap: 18px">
+              <a href="https://treasury.etherfis.trading/roadmap">Roadmap</a
+              ><a href="https://treasury.etherfis.trading/solo-staker">Solo Staker</a
+              ><a href="https://treasury.etherfis.trading/institutional">Institutional</a
+              ><a href="https://treasury.etherfis.trading/partners">Partners</a
+              ><a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://etherfi.gitbook.io/etherfi"
+                >Docs</a
+              >
+            </div>
+          </div>
+          <div class="md:col-start-2 md:row-start-1 col-start-2 row-start-1">
+            <div style="display: flex; flex-direction: column; gap: 18px">
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://etherfi.gitbook.io/etherfi/"
+                >Gitbook</a
+              ><a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper"
+                >Whitepaper</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex space-x-2 space-y-2 justify-center items-center self-center md:flex-row md:self-start"
+        >
+          <a
+            class="p-2 px-8 flex items-center bg-white space-x-1 rounded-full w-full max-w-[110px] flex-none h-9 text-sm font-medium text-[rgba(25,22,59,1)] justify-center"
+            href="https://app.ether.fi"
+            ><img
+              alt="sparkle"
+              loading="lazy"
+              width="20"
+              height="20"
+              decoding="async"
+              data-nimg="1"
+              src="https://www.ether.fi/_next/static/media/sparkle.21b2d42e.svg"
+              style="color: transparent"
+            />App</a
+          >
+          <div class="flex items-center space-x-3 h-full">
+            <a
+              class="p7662z0"
+              href="https://twitter.com/ether_fi"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><img
+                alt="twitter"
+                loading="lazy"
+                width="24"
+                height="25"
+                decoding="async"
+                data-nimg="1"
+                class="p7662z1"
+                src="https://www.ether.fi/_next/static/media/twitter.e1846f30.svg"
+                style="color: transparent" /></a
+            ><a
+              class="p7662z0"
+              href="https://discord.com/invite/zqGzcuQWvD"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><img
+                alt="discord"
+                loading="lazy"
+                width="24"
+                height="25"
+                decoding="async"
+                data-nimg="1"
+                class="p7662z1"
+                src="https://www.ether.fi/_next/static/media/discord.7562bfea.svg"
+                style="color: transparent" /></a
+            ><a
+              class="p7662z0"
+              href="https://t.me/+C3fpSjmPqzA5NTVh"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><img
+                alt="telegram"
+                loading="lazy"
+                width="24"
+                height="25"
+                decoding="async"
+                data-nimg="1"
+                class="p7662z1"
+                src="https://www.ether.fi/_next/static/media/telegram.196361cc.svg"
+                style="color: transparent" /></a
+            ><a
+              class="p7662z0"
+              href="https://github.com/etherfi-protocol"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><img
+                alt="github"
+                loading="lazy"
+                width="24"
+                height="25"
+                decoding="async"
+                data-nimg="1"
+                class="p7662z1"
+                src="https://www.ether.fi/_next/static/media/github.71fc3293.svg"
+                style="color: transparent" /></a
+            ><a
+              class="p7662z0"
+              href="https://medium.com/etherfi"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><img
+                alt="medium"
+                loading="lazy"
+                width="24"
+                height="25"
+                decoding="async"
+                data-nimg="1"
+                class="p7662z1"
+                src="https://www.ether.fi/_next/static/media/medium.de5225c0.svg"
+                style="color: transparent"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
